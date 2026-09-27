@@ -1,0 +1,49 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Datos crudos (muy pesados, GitHub rechaza archivos > 100 MB)
+datos/
+*.zip
+*.fits
+*.fit
+*.fz
+*.root
+
+# Generados (se recrean con los scripts)
+para_entrenar/dataset/
+para_entrenar/runs/
+para_entrenar/revision_etiquetas/
+para_entrenar/modelo_entrenado/
+# datos y applets de cada usuario (entrenar_todo.py)
+para_entrenar/mis_datos/*
+!para_entrenar/mis_datos/LEEME.txt
+para_entrenar/mi_applet*/
+listo_para_usar/detecciones/
+listo_para_usar/convertidos/
+salidas_anteriores/
+detecciones/
+imagenes_png/
+convertidos/
+
+# Pesos de ultralytics que se descargan solos en la carpeta donde se ejecuta
+*.pt
+# ...excepto los dos modelos del proyecto:
+!listo_para_usar/modelo/detector_particulas.pt
+!para_entrenar/modelo_base/yolo11n.pt
+
+# Auxiliares de LaTeX (la bitacora versiona el .tex, el .pdf y las figuras)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Varios
+.Rhistory
+.gradio/
+.DS_Store
+Thumbs.db

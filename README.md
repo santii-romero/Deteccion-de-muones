@@ -8,9 +8,10 @@ La carpeta [Muones](Muones/README.md) contiene la entrega de ambos análisis: es
 
 - [Informe PDF](Muones/output/pdf/proyecto_muones.pdf) académico de cinco páginas, generado con LaTeX y organizado en objetivo, centelladores, detector y discusión comparativa.
 - [Informe HTML autónomo](Muones/output/informe.html) para descargar y abrir en el navegador.
+- **[Leer el informe en línea](https://santii-romero.github.io/Deteccion-de-muones/)** con GitHub Pages.
 - [Instrucciones de reproducción](Muones/docs/REPRODUCIBILIDAD.md).
 - [Fuente LaTeX](Muones/output/latex/proyecto_muones.tex) con figuras relativas, apto para Overleaf.
 
 El ajuste temporal conserva los 525 eventos y su resultado adoptado. La parte del CCD integra los resultados documentados y sus fuentes; no se repitió sobre imágenes originales, que no están disponibles. Ambos informes reconocen la ayuda de Claude (Anthropic) y Codex (OpenAI) y no muestran fecha de emisión. Las mediciones originales de centelladores y los respaldos grandes se conservan localmente fuera del repositorio.
 
-El trabajo del detector profesional se conserva en la rama [identificador](https://github.com/santii-romero/Deteccion-de-muones/tree/identificador/Proyecto-detector).
+El trabajo del detector profesional se conserva en la rama [Identificador-instrumental-moderno](https://github.com/santii-romero/Deteccion-de-muones/tree/Identificador-instrumental-moderno/Proyecto-detector). La entrega conjunta y su publicación automática están en `Análisis-laboratorio-de-enseñanzas` (antes `main`).

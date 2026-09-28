@@ -9,6 +9,7 @@
 
 ## Destino de publicación autorizado
 
+- El usuario autorizó configurar GitHub Pages para leer el informe mediante un enlace público. Las ramas remotas se renombraron conservando exactamente los commits: `main` → `Análisis-laboratorio-de-enseñanzas`, `identificador` → `Identificador-instrumental-moderno`. Publicar desde el nombre vigente de la entrega mediante el workflow de la raíz del repositorio, conservando los resultados y el contenido del detector. Leer `docs/PAGES.md`.
 - El usuario proporcionó `https://github.com/santii-romero/Deteccion-de-muones.git` y ordenó subir esta carpeta como `Muones/` en la rama `main`. La rama `identificador`, donde está `Proyecto-detector/`, debe permanecer intacta. La orden posterior de integración autoriza los entregables conjuntos y las correcciones editoriales descritos arriba; conservar el análisis temporal adoptado.
 
 ## Historia: preferencias antes de la orden de integración

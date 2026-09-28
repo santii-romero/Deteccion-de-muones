@@ -1,0 +1,23 @@
+# Instrucciones del proyecto de muones
+
+## Destino de publicación autorizado
+
+- El usuario proporcionó `https://github.com/santii-romero/Deteccion-de-muones.git` y ordenó subir esta carpeta como `Muones/` en la rama `main`. La rama `identificador`, donde está `Proyecto-detector/`, debe permanecer intacta. Esta autorización actualiza la espera por acceso indicada más abajo; no autoriza todavía la integración científica ni las correcciones editoriales pendientes.
+
+## Preferencias editoriales pendientes y próxima integración
+
+- Leer `docs/PREFERENCIAS_ENTREGA.md`. El usuario ordenó guardar estas preferencias sin aplicarlas todavía: describir el montaje en texto, retirar nombres de archivos de mediciones e IDs particulares del relato público, corregir la leyenda superpuesta y producir el PDF mediante LaTeX con estilo de informe académico. El HTML podrá tener una presentación diferente.
+- El usuario confirmó que la barra es de plomo; las dimensiones siguen pendientes. Esta aclaración prevalece sobre las menciones anteriores de material desconocido. Guardar la información para la futura revisión, sin modificar ahora el modelo o las selecciones.
+- La entrega conjunta deberá integrar esta etapa de laboratorio de enseñanza con el análisis de un detector profesional ya existente en el repositorio que el usuario proporcionará. Esperar sus próximas indicaciones para esa integración y corrección editorial. No publicar hasta recibir el repositorio y la autorización correspondiente.
+- Única actualización de los entregables autorizada en esta etapa: incorporar a Theo Del Compare y Santiago Romero como integrantes. Conservar los gráficos y el contenido científico actual mientras las demás correcciones estén pendientes.
+
+- Esta es la entrega consolidada de la etapa de centelladores. Leer `README.md`, `docs/METODO.md`, `docs/DATA.md` y `docs/DECISIONES.md` antes de cambiar el análisis. Los históricos y originales se preservan en un respaldo local externo.
+- Solo registros reales de 1024 puntos del ámbito canónico `Datos/Med_con_Decaimientos/`. Excluir las mediciones de 300 puntos de todo análisis; conservar sus originales. La ubicación física del TXT externo se pasa con `--txt`; no altera sus claves canónicas.
+- Resultado vigente: solo el TXT independiente, 525 eventos, cero primeros 181/216, fondo fijo cero, peso 1 por evento, cota inferior 120 ns y superior `t_final−t_CH1_inicial−10 ns`. Configuración `config/lifetime_active.json`, copia `lifetime_txt_margin10_v3.json`. No elegir cortes por proximidad al valor tabulado.
+- CH3 inicial detectado permanece fuera; CH1 tardío no veta ni define el tiempo secundario. #373/#737 quedan fuera por margen y conservan calidad aprobada. Mantener etiquetas, saturación de #142 y procedencia de las decisiones.
+- Las 88 decisiones están resueltas: 80 aprobaciones y ocho exclusiones explícitas. Siete aprobados sin tiempo utilizable (#81/#201/#429/#448/#569/#593/#627) siguen fuera. No inventar tiempos. Pendientes 41 CH3 inicial inciertos y ocho de calidad inicial. Las decisiones por las 847 trazas se preservan en `data/derived/txt_event_decisions.csv`.
+- Configuración física comunicada por el usuario: CH1 superior dispara; CH2 exigido; CH3 no exigido; barra de metal pesado entre CH2/CH3; 1024 muestras. Esto prevalece sobre ejemplos de la guía o código de referencia. Rechazo de voltajes positivos y versión real de adquisición desconocidos; no reconstruirlos arbitrariamente ni ejecutar instrumental.
+- Mantener corridas separadas, usar eje de la forma de onda y no `ts` para retardos, no inferir tiempo vivo de la rotación. La selección previa por CH2 no permite medir directamente su eficiencia con referencia 1–3. El control triple no es fondo puro.
+- Revisión visual y simulaciones no certifican identidad física, pureza ni aceptación experimental. Informar incertidumbres estadísticas condicionadas y limitaciones. Las 31 pruebas son de código; las 3000 simulaciones son tiempos artificiales y no aumentan la muestra.
+- Entradas congeladas protegidas por `data/inputs_manifest.json`; derivados bajo `results/` y entregables bajo `output/`. No sobrescribir decisiones para hacer pasar una auditoría. Un cambio científico requiere nueva versión de configuración y procedencia.
+- Entrega: exactamente un PDF de máximo cinco páginas y un HTML. No reintroducir informes parciales en el paquete. Scripts principales: `reproduce.py`, `build_report.py`, `audit_delivery.py`. No publicar ni enviar mensajes sin solicitud explícita.

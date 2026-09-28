@@ -1,0 +1,40 @@
+{
+  "source": "Datos/Med_con_Decaimientos/decaimientos.txt",
+  "bytes": 25076397,
+  "sha256": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "blocks": 847,
+  "sample_lengths": {
+    "1024": 847
+  },
+  "first_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "last_ids": [
+    838,
+    839,
+    840,
+    841,
+    842,
+    843,
+    844,
+    845,
+    846,
+    847
+  ],
+  "time_starts": {
+    "0.0": 847
+  },
+  "time_ends": {
+    "1698.34": 847
+  },
+  "errors": []
+}

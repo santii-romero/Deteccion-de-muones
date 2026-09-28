@@ -1,0 +1,349 @@
+{
+  "reviewer": "Codex; nonblind morphology inspection, not certified physical labels",
+  "source": "Datos/Med_con_Decaimientos/decaimientos.txt",
+  "source_hash": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "images_inspected": [
+    {
+      "image": "bordes_01.png",
+      "event_ids": [
+        26,
+        47,
+        58,
+        68
+      ],
+      "sha256": "16d8d346a18a6855a2b9fa2d4024b38de995d036c4352908b78dbbed4a6ce94f"
+    },
+    {
+      "image": "bordes_02.png",
+      "event_ids": [
+        94,
+        116,
+        183,
+        187
+      ],
+      "sha256": "c3645f088ee26c59cfdbf748e54205d57c67c09e6c9fde48d10d783a68f82d53"
+    },
+    {
+      "image": "bordes_03.png",
+      "event_ids": [
+        227,
+        238,
+        242,
+        251
+      ],
+      "sha256": "b18dc9d381cf856e1ec591c6f80c2bc259b2696b960082dcc32b5421514c20d4"
+    },
+    {
+      "image": "bordes_04.png",
+      "event_ids": [
+        262,
+        344,
+        373,
+        428
+      ],
+      "sha256": "fd029a8904f5561eba1aa057e735326f0f4e5c374ee6f2c431c26d281f254fb3"
+    },
+    {
+      "image": "bordes_05.png",
+      "event_ids": [
+        433,
+        436,
+        450,
+        458
+      ],
+      "sha256": "f4def10d7a022ff24c0e68c4cc2ad656457fd67bfc670c40c45ca7771334025a"
+    },
+    {
+      "image": "bordes_06.png",
+      "event_ids": [
+        476,
+        663,
+        680,
+        692
+      ],
+      "sha256": "d6e753c4445fe537749c86b59dcabe5dcf5d70627966614e94efe039ae6dd0a9"
+    },
+    {
+      "image": "bordes_07.png",
+      "event_ids": [
+        709,
+        737,
+        758
+      ],
+      "sha256": "84c7e0d217568a31d1a537a5cefb738d626299e242da0b58ec05db074b21ff61"
+    }
+  ],
+  "reviewed_events": 27,
+  "observations": [
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block26::event26",
+      "event_id": 26,
+      "observation": "Depresión CH2 localizada; se registra mínimo y recuperación hacia el patrón oscilatorio. Quedan 21,582 ns; conservar proximidad al borde.",
+      "delay_ns": 1462.598,
+      "distance_to_end_ns": 21.58199999999988,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block47::event47",
+      "event_id": 47,
+      "observation": "Pulso CH2 amplio y de gran amplitud, con retorno visible antes del fin. Marca de borde por 31,543 ns restantes, no ausencia de mínimo.",
+      "delay_ns": 1449.317,
+      "distance_to_end_ns": 31.542999999999893,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block58::event58",
+      "event_id": 58,
+      "observation": "Pulso CH3 localizado sobre oscilación, con mínimo principal y recuperación. El tiempo usa el CH3 aceptado, no la semilla menor posterior; quedan 39,844 ns.",
+      "delay_ns": 1439.355,
+      "distance_to_end_ns": 39.843999999999824,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block68::event68",
+      "event_id": 68,
+      "observation": "Dos mínimos CH2 cercanos en una depresión superpuesta a oscilación. Se conserva la media exportada; la marca temporal queda entre ambos, no en una muestra de mínimo única.",
+      "delay_ns": 1449.3165000000001,
+      "distance_to_end_ns": 28.222499999999854,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block94::event94",
+      "event_id": 94,
+      "observation": "Depresión CH2 con zona de mínimos y retorno al entorno posterior. Tiempo automático conservado; quedan 36,524 ns.",
+      "delay_ns": 1455.957,
+      "distance_to_end_ns": 36.52399999999989,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block116::event116",
+      "event_id": 116,
+      "observation": "Pulso CH3 localizado con mínimo y recuperación; la semilla menor posterior no define el retardo. Quedan 53,125 ns.",
+      "delay_ns": 1419.434,
+      "distance_to_end_ns": 53.125,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block183::event183",
+      "event_id": 183,
+      "observation": "Pulso CH2 grande con mínimo guardado y recuperación antes del final. Marca de borde operativa por 31,543 ns.",
+      "delay_ns": 1459.277,
+      "distance_to_end_ns": 31.542999999999893,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block187::event187",
+      "event_id": 187,
+      "observation": "Depresión CH2 localizada dentro de entorno oscilatorio variable; el tramo posterior presenta excursiones correlacionadas en varios canales. Conservar clasificación automática, sin identidad física confirmada.",
+      "delay_ns": 1434.375,
+      "distance_to_end_ns": 59.76599999999985,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block227::event227",
+      "event_id": 227,
+      "observation": "Pulso CH2 grande con mínimo y retorno próximo al final; quedan 16,602 ns. Conserva duda de margen reducido, aunque se guarda parte de la recuperación.",
+      "delay_ns": 1475.8790000000001,
+      "distance_to_end_ns": 16.60199999999986,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block238::event238",
+      "event_id": 238,
+      "observation": "Mínimo CH2 y retorno local visibles entre oscilaciones. Tiempo automático conservado; quedan 43,164 ns.",
+      "delay_ns": 1452.637,
+      "distance_to_end_ns": 43.16399999999999,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block242::event242",
+      "event_id": 242,
+      "observation": "Depresión CH2 de varias muestras con recuperación hacia el nivel previo. Quedan 28,223 ns y se mantiene la marca automática de borde.",
+      "delay_ns": 1465.918,
+      "distance_to_end_ns": 28.222999999999956,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block251::event251",
+      "event_id": 251,
+      "observation": "Pulso CH2 de gran amplitud y varias muestras, con mínimo y retorno bien anteriores al final. Quedan 79,688 ns.",
+      "delay_ns": 1414.453,
+      "distance_to_end_ns": 79.68799999999987,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block262::event262",
+      "event_id": 262,
+      "observation": "Pulso CH3 localizado, con mínimo y retorno antes del final; quedan 79,688 ns. Tiempo automático conservado.",
+      "delay_ns": 1406.152,
+      "distance_to_end_ns": 79.68799999999987,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block344::event344",
+      "event_id": 344,
+      "observation": "Depresión CH3 amplia con estructura de mínimos y recuperación antes del final. Tiempo propuesto conservado; quedan 29,883 ns.",
+      "delay_ns": 1450.977,
+      "distance_to_end_ns": 29.88299999999981,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block373::event373",
+      "event_id": 373,
+      "observation": "Mínimo CH2 profundo en las últimas muestras, a 4,981 ns del fin. Se ve inicio de recuperación, pero no la cola completa ni retorno al nivel previo.",
+      "delay_ns": 1470.898,
+      "distance_to_end_ns": 4.9809999999999945,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block428::event428",
+      "event_id": 428,
+      "observation": "Depresión CH2 localizada con mínimo y recuperación dentro del registro. Tiempo automático conservado; quedan 43,164 ns.",
+      "delay_ns": 1441.0159999999998,
+      "distance_to_end_ns": 43.16399999999999,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block433::event433",
+      "event_id": 433,
+      "observation": "Pulso CH2 grande con mínimo y retorno observables antes del tramo final. Quedan 61,426 ns.",
+      "delay_ns": 1417.773,
+      "distance_to_end_ns": 61.42599999999993,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block436::event436",
+      "event_id": 436,
+      "observation": "Mínimo CH2 localizado sobre oscilación, con recuperación posterior. Tiempo automático conservado; quedan 44,824 ns.",
+      "delay_ns": 1429.395,
+      "distance_to_end_ns": 44.82399999999984,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block450::event450",
+      "event_id": 450,
+      "observation": "Depresión CH3 ancha superpuesta a oscilación; mínimo y recuperación parcial hacia el entorno al final. Quedan 29,883 ns; mantener marca de borde.",
+      "delay_ns": 1459.277,
+      "distance_to_end_ns": 29.88299999999981,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block458::event458",
+      "event_id": 458,
+      "observation": "Depresión CH2 localizada con estructura oscilatoria próxima y retorno posterior. Quedan 68,067 ns; clasificación automática conservada.",
+      "delay_ns": 1421.0929999999998,
+      "distance_to_end_ns": 68.06700000000001,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block476::event476",
+      "event_id": 476,
+      "observation": "Pulso CH2 ancho de varias muestras, con mínimo y recuperación dentro de los 33,203 ns restantes. Mantener marca operativa de borde.",
+      "delay_ns": 1449.317,
+      "distance_to_end_ns": 33.202999999999975,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block663::event663",
+      "event_id": 663,
+      "observation": "Depresión CH2 localizada con mínimo y retorno al entorno posterior. Quedan 41,504 ns; tiempo automático conservado.",
+      "delay_ns": 1445.996,
+      "distance_to_end_ns": 41.503999999999905,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block680::event680",
+      "event_id": 680,
+      "observation": "Pulso CH2 con mínimo y recuperación antes del fin; quedan 28,223 ns. La proximidad al borde sigue registrada.",
+      "delay_ns": 1462.597,
+      "distance_to_end_ns": 28.222999999999956,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block692::event692",
+      "event_id": 692,
+      "observation": "Depresión CH2 amplia con mínimo y retorno. Excursiones de otros canales en el entorno no redefinen el tiempo; quedan 46,485 ns.",
+      "delay_ns": 1449.316,
+      "distance_to_end_ns": 46.4849999999999,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block709::event709",
+      "event_id": 709,
+      "observation": "Depresión CH2 localizada y retorno dentro de entorno oscilatorio. Quedan 64,746 ns; se conserva la elección automática.",
+      "delay_ns": 1411.133,
+      "distance_to_end_ns": 64.74599999999987,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block737::event737",
+      "event_id": 737,
+      "observation": "Mínimo CH2 registrado a 8,301 ns del final; la señal sigue negativa al terminar y falta la cola completa. Mantener esa duda en máxima inclusión.",
+      "delay_ns": 1474.219,
+      "distance_to_end_ns": 8.30099999999993,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    },
+    {
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block758::event758",
+      "event_id": 758,
+      "observation": "Pulso CH2 acompañado por CH1 tardío, con mínimos y retorno guardados. CH1 no veta ni define el tiempo secundario; quedan 81,348 ns.",
+      "delay_ns": 1416.113,
+      "distance_to_end_ns": 81.34799999999996,
+      "visual_review_done": true,
+      "physical_identity": "unconfirmed",
+      "quality_decision_changed": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pdf_pages_inspected": 5,
+  "renderer": "PyMuPDF 120 dpi",
+  "pdf_sha256": "882969391ce65da2f744a3e1b79a4d809e08dadf71c3be08d1ff0adc817ccc3e",
+  "html_sha256": "c44607b9783d47845883558e7171c0ef9d28c6619f3f87c953662b0accc0f44b",
+  "pdf_findings": "First page re-inspected after authorship addition. Names readable and clear of header and title. Pages 2-5 render identically to the previously inspected PDF.",
+  "html_browser_visual_check": "unavailable: in-app browser unavailable; browser inventory empty",
+  "html_validation": "Shared report content, local links, sections and embedded PNG images checked structurally",
+  "authorship_update": {
+    "authors": [
+      "Theo Del Compare",
+      "Santiago Romero"
+    ],
+    "pdf_metadata_updated": true,
+    "html_updated": true,
+    "other_pdf_pages_pixel_identical": true,
+    "figures_byte_identical": true,
+    "scientific_content_changed": false
+  },
+  "deferred_user_preferences": "docs/PREFERENCIAS_ENTREGA.md; includes the acknowledged existing fit-legend overlap. No correction applied at user request."
+}

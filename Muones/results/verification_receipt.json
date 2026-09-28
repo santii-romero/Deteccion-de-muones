@@ -1,0 +1,29 @@
+{
+  "script_sha256": "a433471cb79144b305096d188eca0d0b6a83b220687ca4cebbba38622572aea7",
+  "inputs_manifest_sha256": "dbc06738d190e46df1304a28c5967be8e13d8dea5b0ba466ba05104d19fa7a83",
+  "raw_verification": {
+    "source_events": 847,
+    "selected_times_verified": 525,
+    "all_automatic_pulse_labels_reproduced": true,
+    "source_sha256": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+    "source_path_recorded": false
+  },
+  "simulations_recomputed": true,
+  "local_validation": {
+    "simulations": 3000,
+    "seed": 2026092811,
+    "events": 525,
+    "generator_tau_us": 1.9477664184813586,
+    "nominal_68_coverage": 0.6776666666666666,
+    "nominal_95_coverage": 0.9486666666666667,
+    "empirical_lr_thresholds": [
+      1.0184759952559173,
+      3.8652255892956595
+    ],
+    "infinite_tau_fits": 0,
+    "observed_pit_ks": 0.022529223165985268,
+    "refitted_pit_ks_p": 0.7860713095634788,
+    "scope": "Conditional on observed counts and each record window; exponential-only, unit weights. No waveform/edge efficiency or purity calibration."
+  },
+  "fit_events": 525
+}

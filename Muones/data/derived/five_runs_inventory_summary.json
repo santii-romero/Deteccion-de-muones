@@ -1,0 +1,135 @@
+[
+  {
+    "run": "run_20260907_140421",
+    "directories": [
+      "Datos\\Med_con_Decaimientos\\7-9_9-9"
+    ],
+    "files": 575,
+    "events": 85843,
+    "n_samples": {
+      "1024": 85843
+    },
+    "span_ns": [
+      1698.34,
+      1698.34
+    ],
+    "dt_median_ns": [
+      1.660000000000025
+    ],
+    "first_ts": "2026-09-07 14:04:23.106",
+    "last_ts": "2026-09-09 14:04:56.785",
+    "missing_internal_indexes": [],
+    "first_file_index": 0,
+    "last_file_index": 574,
+    "parser_error_events": 0,
+    "duplicate_waveforms": 0,
+    "duplicate_ids": 0
+  },
+  {
+    "run": "run_20260909_142637",
+    "directories": [
+      "Datos\\Med_con_Decaimientos\\9-9_10-9"
+    ],
+    "files": 284,
+    "events": 37624,
+    "n_samples": {
+      "1024": 37624
+    },
+    "span_ns": [
+      1698.34,
+      1698.34
+    ],
+    "dt_median_ns": [
+      1.660000000000025
+    ],
+    "first_ts": "2026-09-09 14:26:47.611",
+    "last_ts": "2026-09-10 14:09:09.448",
+    "missing_internal_indexes": [],
+    "first_file_index": 0,
+    "last_file_index": 283,
+    "parser_error_events": 0,
+    "duplicate_waveforms": 0,
+    "duplicate_ids": 0
+  },
+  {
+    "run": "run_20260903_184041",
+    "directories": [
+      "Datos\\Med_con_Decaimientos\\con plomo"
+    ],
+    "files": 2,
+    "events": 156,
+    "n_samples": {
+      "1024": 156
+    },
+    "span_ns": [
+      1698.34,
+      1698.34
+    ],
+    "dt_median_ns": [
+      1.660000000000025
+    ],
+    "first_ts": "2026-09-03 18:40:42.213",
+    "last_ts": "2026-09-03 18:45:51.769",
+    "missing_internal_indexes": [],
+    "first_file_index": 0,
+    "last_file_index": 1,
+    "parser_error_events": 0,
+    "duplicate_waveforms": 0,
+    "duplicate_ids": 0
+  },
+  {
+    "run": "run_20260903_152154",
+    "directories": [
+      "Datos\\Med_con_Decaimientos\\Med Decaimiento 1"
+    ],
+    "files": 53,
+    "events": 5019,
+    "n_samples": {
+      "1024": 5019
+    },
+    "span_ns": [
+      1698.34,
+      1698.34
+    ],
+    "dt_median_ns": [
+      1.660000000000025
+    ],
+    "first_ts": "2026-09-03 15:21:54.566",
+    "last_ts": "2026-09-03 18:37:56.313",
+    "missing_internal_indexes": [],
+    "first_file_index": 0,
+    "last_file_index": 52,
+    "parser_error_events": 0,
+    "duplicate_waveforms": 0,
+    "duplicate_ids": 0
+  },
+  {
+    "run": "run_20260904_134314",
+    "directories": [
+      "Datos\\Med_con_Decaimientos\\PAblo"
+    ],
+    "files": 459,
+    "events": 64038,
+    "n_samples": {
+      "1024": 64038
+    },
+    "span_ns": [
+      1698.34,
+      1698.34
+    ],
+    "dt_median_ns": [
+      1.660000000000025
+    ],
+    "first_ts": "2026-09-05 23:23:21.279",
+    "last_ts": "2026-09-07 13:50:38.852",
+    "missing_internal_indexes": [
+      540,
+      547
+    ],
+    "first_file_index": 403,
+    "last_file_index": 863,
+    "parser_error_events": 0,
+    "duplicate_waveforms": 0,
+    "duplicate_ids": 0
+  }
+]

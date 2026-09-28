@@ -1,0 +1,415 @@
+{
+  "source": "Datos/Med_con_Decaimientos/decaimientos.txt",
+  "source_hash": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "source_events": 847,
+  "previous_events_used": 0,
+  "background": 0,
+  "event_weight": 1,
+  "lower_ns": 120,
+  "fits": {
+    "common1400": {
+      "events": 500,
+      "beta_per_us": 0.5558567965900062,
+      "tau_us": 1.7990245079931781,
+      "intervals_us": {
+        "68": [
+          1.4735035203058655,
+          2.3067610713046856
+        ],
+        "95": [
+          1.2546608785414008,
+          3.1604400670822694
+        ]
+      },
+      "conditional_nll": 113.01533960118658,
+      "minus2logL_at_infinite_tau": 20.829398729152416,
+      "independent_optimizer_beta": 0.5558568073232087,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.4,
+        1.4
+      ],
+      "label": "Común 1400 ns",
+      "cap_ns": 1400,
+      "edge_margin_ns": null,
+      "added_automatic_clean": 0,
+      "added_user_approved": 0,
+      "added_ids": [],
+      "mean_delay_ns": 684.739716
+    },
+    "common1425": {
+      "events": 507,
+      "beta_per_us": 0.5520407642595548,
+      "tau_us": 1.8114604296320167,
+      "intervals_us": {
+        "68": [
+          1.4887810522581424,
+          2.3103691102417883
+        ],
+        "95": [
+          1.2705987623967814,
+          3.1373328173353223
+        ]
+      },
+      "conditional_nll": 124.14149534361746,
+      "minus2logL_at_infinite_tau": 21.64689265826712,
+      "independent_optimizer_beta": 0.5520407769319976,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.425,
+        1.425
+      ],
+      "label": "Común 1425 ns",
+      "cap_ns": 1425,
+      "edge_margin_ns": null,
+      "added_automatic_clean": 6,
+      "added_user_approved": 1,
+      "added_ids": [
+        116,
+        251,
+        262,
+        433,
+        458,
+        709,
+        758
+      ],
+      "mean_delay_ns": 694.8244753451678
+    },
+    "common1450": {
+      "events": 516,
+      "beta_per_us": 0.5274845167504797,
+      "tau_us": 1.8957902426414501,
+      "intervals_us": {
+        "68": [
+          1.5533441699845256,
+          2.4294857351634715
+        ],
+        "95": [
+          1.3230023278571734,
+          3.3255817542438835
+        ]
+      },
+      "conditional_nll": 136.69902475151758,
+      "minus2logL_at_infinite_tau": 20.906618882104453,
+      "independent_optimizer_beta": 0.5274845170368596,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.45,
+        1.45
+      ],
+      "label": "Común 1450 ns",
+      "cap_ns": 1450,
+      "edge_margin_ns": null,
+      "added_automatic_clean": 11,
+      "added_user_approved": 5,
+      "added_ids": [
+        47,
+        58,
+        68,
+        116,
+        187,
+        251,
+        262,
+        428,
+        433,
+        436,
+        458,
+        476,
+        663,
+        692,
+        709,
+        758
+      ],
+      "mean_delay_ns": 707.8748304263564
+    },
+    "record_minus35": {
+      "events": 515,
+      "beta_per_us": 0.5457332227482263,
+      "tau_us": 1.8323971462909256,
+      "intervals_us": {
+        "68": [
+          1.5106403903995214,
+          2.3259922161596465
+        ],
+        "95": [
+          1.2919533487331303,
+          3.1339026688149905
+        ]
+      },
+      "conditional_nll": 136.8732535706992,
+      "minus2logL_at_infinite_tau": 22.42106369060184,
+      "independent_optimizer_beta": 0.5457332140923364,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.4358989999999998,
+        1.467442
+      ],
+      "label": "Fin individual menos 35 ns",
+      "cap_ns": null,
+      "edge_margin_ns": 35,
+      "added_automatic_clean": 13,
+      "added_user_approved": 2,
+      "added_ids": [
+        58,
+        94,
+        116,
+        187,
+        238,
+        251,
+        262,
+        428,
+        433,
+        436,
+        458,
+        663,
+        692,
+        709,
+        758
+      ],
+      "mean_delay_ns": 706.454477669903,
+      "local_validation": {
+        "simulations": 3000,
+        "seed": 2026092810,
+        "events": 515,
+        "generator_tau_us": 1.8323971462909256,
+        "nominal_68_coverage": 0.6736666666666666,
+        "nominal_95_coverage": 0.9496666666666667,
+        "empirical_lr_thresholds": [
+          1.036097925639154,
+          3.8456438819676917
+        ],
+        "infinite_tau_fits": 0,
+        "observed_pit_ks": 0.022787287144290444,
+        "refitted_pit_ks_p": 0.7840719760079974,
+        "scope": "Conditional on observed counts and each record window; exponential-only, unit weights. No waveform/edge efficiency or purity calibration."
+      }
+    },
+    "record_minus25": {
+      "events": 523,
+      "beta_per_us": 0.49345827805671433,
+      "tau_us": 2.0265137793170585,
+      "intervals_us": {
+        "68": [
+          1.6456203033464767,
+          2.6341866710550774
+        ],
+        "95": [
+          1.3932700092980042,
+          3.694894461998968
+        ]
+      },
+      "conditional_nll": 144.80998735636697,
+      "minus2logL_at_infinite_tau": 18.937534393084093,
+      "independent_optimizer_beta": 0.49345826335619447,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.4458989999999998,
+        1.477442
+      ],
+      "label": "Fin individual menos 25 ns",
+      "cap_ns": null,
+      "edge_margin_ns": 25,
+      "added_automatic_clean": 13,
+      "added_user_approved": 10,
+      "added_ids": [
+        47,
+        58,
+        68,
+        94,
+        116,
+        183,
+        187,
+        238,
+        242,
+        251,
+        262,
+        344,
+        428,
+        433,
+        436,
+        450,
+        458,
+        476,
+        663,
+        680,
+        692,
+        709,
+        758
+      ],
+      "mean_delay_ns": 717.9159703632887
+    },
+    "record_minus10": {
+      "events": 525,
+      "beta_per_us": 0.5134085845774482,
+      "tau_us": 1.9477664184813586,
+      "intervals_us": {
+        "68": [
+          1.596712214307546,
+          2.4942299225015807
+        ],
+        "95": [
+          1.3603990758745843,
+          3.4099820177184315
+        ]
+      },
+      "conditional_nll": 150.19186009640453,
+      "minus2logL_at_infinite_tau": 21.016014474845065,
+      "independent_optimizer_beta": 0.5134085657732421,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.460899,
+        1.492442
+      ],
+      "label": "Fin individual menos 10 ns",
+      "cap_ns": null,
+      "edge_margin_ns": 10,
+      "added_automatic_clean": 13,
+      "added_user_approved": 12,
+      "added_ids": [
+        26,
+        47,
+        58,
+        68,
+        94,
+        116,
+        183,
+        187,
+        227,
+        238,
+        242,
+        251,
+        262,
+        344,
+        428,
+        433,
+        436,
+        450,
+        458,
+        476,
+        663,
+        680,
+        692,
+        709,
+        758
+      ],
+      "mean_delay_ns": 720.7781514285714,
+      "local_validation": {
+        "simulations": 3000,
+        "seed": 2026092811,
+        "events": 525,
+        "generator_tau_us": 1.9477664184813586,
+        "nominal_68_coverage": 0.6776666666666666,
+        "nominal_95_coverage": 0.9486666666666667,
+        "empirical_lr_thresholds": [
+          1.0184759952559173,
+          3.8652255892956595
+        ],
+        "infinite_tau_fits": 0,
+        "observed_pit_ks": 0.022529223165985268,
+        "refitted_pit_ks_p": 0.7860713095634788,
+        "scope": "Conditional on observed counts and each record window; exponential-only, unit weights. No waveform/edge efficiency or purity calibration."
+      }
+    },
+    "record_end": {
+      "events": 527,
+      "beta_per_us": 0.5198901979201153,
+      "tau_us": 1.9234830816211252,
+      "intervals_us": {
+        "68": [
+          1.5828013047847074,
+          2.4486523846966413
+        ],
+        "95": [
+          1.35199586514779,
+          3.3149351453689806
+        ]
+      },
+      "conditional_nll": 154.19515597574718,
+      "minus2logL_at_infinite_tau": 21.940078971851676,
+      "independent_optimizer_beta": 0.5198902066155153,
+      "background": 0.0,
+      "event_weight": 1.0,
+      "lower_us": 0.12,
+      "upper_us_range": [
+        1.470899,
+        1.502442
+      ],
+      "label": "Hasta el fin individual",
+      "cap_ns": null,
+      "edge_margin_ns": 0,
+      "added_automatic_clean": 13,
+      "added_user_approved": 14,
+      "added_ids": [
+        26,
+        47,
+        58,
+        68,
+        94,
+        116,
+        183,
+        187,
+        227,
+        238,
+        242,
+        251,
+        262,
+        344,
+        373,
+        428,
+        433,
+        436,
+        450,
+        458,
+        476,
+        663,
+        680,
+        692,
+        709,
+        737,
+        758
+      ],
+      "mean_delay_ns": 723.6312077798862,
+      "local_validation": {
+        "simulations": 3000,
+        "seed": 2026092812,
+        "events": 527,
+        "generator_tau_us": 1.9234830816211252,
+        "nominal_68_coverage": 0.6756666666666666,
+        "nominal_95_coverage": 0.9466666666666667,
+        "empirical_lr_thresholds": [
+          1.0324474434815611,
+          3.927211693268621
+        ],
+        "infinite_tau_fits": 0,
+        "observed_pit_ks": 0.022052701192663116,
+        "refitted_pit_ks_p": 0.8060646451182939,
+        "scope": "Conditional on observed counts and each record window; exponential-only, unit weights. No waveform/edge efficiency or purity calibration."
+      }
+    }
+  },
+  "approved_outside_reference": {
+    "total": 18,
+    "below_lower": 4,
+    "above_upper": 14
+  },
+  "additional_clean_above_reference": 13,
+  "all_initial_record_end_ns_range": [
+    1460.9379999999999,
+    1515.723
+  ],
+  "units": "ns in ledgers; microseconds in likelihood/fit results",
+  "note": "Sensitivity comparison requested by user. Record-specific normalized exponential with fixed zero background; quality decisions and delay proposals preserved. Active 500-event reference unchanged.",
+  "edge_interpretation": "35 ns is an operational margin, not proof every nearer pulse is truncated. No acceptance efficiency has been calibrated for reducing this margin."
+}

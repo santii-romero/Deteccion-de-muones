@@ -1,0 +1,22 @@
+{
+  "version": "delivery-margin10-v1",
+  "source": "Datos/Med_con_Decaimientos/decaimientos.txt",
+  "source_sha256": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "n_samples": 1024,
+  "background": "fixed_zero",
+  "event_weight": 1.0,
+  "lower_ns": 120,
+  "upper_policy": "record_end_after_prompt_ch1_minus_margin",
+  "edge_margin_ns": 10,
+  "exclude_prompt3_detected": true,
+  "ignore_late_ch1_veto": true,
+  "human_quality_decisions": "data/derived/user_quality_decisions.json",
+  "adopted_comparison": "upper_window_txt_v1/record_minus10",
+  "user_instruction": "Perfecto bueno vamos a quedarnos con el final individual menos 10 ns para evitar esos 2 casos dudosos",
+  "user_decision_date": "2026-09-28",
+  "quality_selection": "data/derived/txt_event_decisions.csv",
+  "result_directory": "results",
+  "fit_script": "scripts/reproduce.py",
+  "excluded_from_lifetime": "All five previous acquisition runs. Preserve original data and historical outputs.",
+  "historical_adopted_version": "txt-only-zero-background-margin10-v3"
+}

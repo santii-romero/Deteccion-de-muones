@@ -1,0 +1,717 @@
+{
+  "schema": "muones-review88-v1",
+  "source": "Datos/Med_con_Decaimientos/decaimientos.txt",
+  "source_hash": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "base_fit_events": 445,
+  "fit_window_ns": [
+    120,
+    1400
+  ],
+  "previous_events_used": 0,
+  "decisions": [
+    {
+      "event_id": 8,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block8::event8",
+      "group_id": "0",
+      "proposed_delay_ns": 969.5310000000001,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 14,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block14::event14",
+      "group_id": "0",
+      "proposed_delay_ns": 1263.3790000000001,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 23,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block23::event23",
+      "group_id": "0",
+      "proposed_delay_ns": 179.297,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 26,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block26::event26",
+      "group_id": "0",
+      "proposed_delay_ns": 1462.598,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 33,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block33::event33",
+      "group_id": "0",
+      "proposed_delay_ns": 89.64899999999997,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 38,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block38::event38",
+      "group_id": "1",
+      "proposed_delay_ns": 730.4689999999999,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 42,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block42::event42",
+      "group_id": "0",
+      "proposed_delay_ns": 644.1410000000001,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 47,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block47::event47",
+      "group_id": "0",
+      "proposed_delay_ns": 1449.317,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 56,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block56::event56",
+      "group_id": "0",
+      "proposed_delay_ns": 365.234,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 58,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block58::event58",
+      "group_id": "5",
+      "proposed_delay_ns": 1439.355,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 68,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block68::event68",
+      "group_id": "2",
+      "proposed_delay_ns": 1449.3165000000001,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 78,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block78::event78",
+      "group_id": "0",
+      "proposed_delay_ns": 582.7149999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 80,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block80::event80",
+      "group_id": "0",
+      "proposed_delay_ns": 986.1319999999998,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 81,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block81::event81",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 84,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block84::event84",
+      "group_id": "0",
+      "proposed_delay_ns": 244.04299999999998,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 107,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block107::event107",
+      "group_id": "0",
+      "proposed_delay_ns": 380.17500000000007,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 116,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block116::event116",
+      "group_id": "0",
+      "proposed_delay_ns": 1419.434,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 134,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block134::event134",
+      "group_id": "0",
+      "proposed_delay_ns": 1168.7505,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 142,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block142::event142",
+      "group_id": "0",
+      "proposed_delay_ns": 121.19199999999998,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 172,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block172::event172",
+      "group_id": "0",
+      "proposed_delay_ns": 996.0939999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 174,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block174::event174",
+      "group_id": "1",
+      "proposed_delay_ns": 904.7849999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 180,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block180::event180",
+      "group_id": "0",
+      "proposed_delay_ns": 766.9920000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 183,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block183::event183",
+      "group_id": "0",
+      "proposed_delay_ns": 1459.277,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 188,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block188::event188",
+      "group_id": "0",
+      "proposed_delay_ns": 830.078,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 201,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block201::event201",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 202,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block202::event202",
+      "group_id": "0",
+      "proposed_delay_ns": 605.958,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 205,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block205::event205",
+      "group_id": "0",
+      "proposed_delay_ns": 119.53099999999998,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 227,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block227::event227",
+      "group_id": "1",
+      "proposed_delay_ns": 1475.8790000000001,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 242,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block242::event242",
+      "group_id": "0",
+      "proposed_delay_ns": 1465.918,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 244,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block244::event244",
+      "group_id": "0",
+      "proposed_delay_ns": 320.41,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 249,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block249::event249",
+      "group_id": "0",
+      "proposed_delay_ns": 1170.4099999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 253,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block253::event253",
+      "group_id": "0",
+      "proposed_delay_ns": 835.059,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 257,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block257::event257",
+      "group_id": "0",
+      "proposed_delay_ns": 119.53099999999998,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 274,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block274::event274",
+      "group_id": "0",
+      "proposed_delay_ns": 1296.5819999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 278,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block278::event278",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 282,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block282::event282",
+      "group_id": "0",
+      "proposed_delay_ns": 645.8,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 304,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block304::event304",
+      "group_id": "0",
+      "proposed_delay_ns": 692.285,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 322,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block322::event322",
+      "group_id": "0",
+      "proposed_delay_ns": 219.141,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 325,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block325::event325",
+      "group_id": "0",
+      "proposed_delay_ns": 83.83849999999998,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 335,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block335::event335",
+      "group_id": "1",
+      "proposed_delay_ns": 129.49300000000002,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 342,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block342::event342",
+      "group_id": "3",
+      "proposed_delay_ns": 1060.8400000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 344,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block344::event344",
+      "group_id": "0",
+      "proposed_delay_ns": 1450.977,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 355,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block355::event355",
+      "group_id": "0",
+      "proposed_delay_ns": 632.519,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 358,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block358::event358",
+      "group_id": "0",
+      "proposed_delay_ns": 514.648,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 373,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block373::event373",
+      "group_id": "0",
+      "proposed_delay_ns": 1470.898,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 382,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block382::event382",
+      "group_id": "0",
+      "proposed_delay_ns": 1032.617,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 389,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block389::event389",
+      "group_id": "0",
+      "proposed_delay_ns": 426.6600000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 397,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block397::event397",
+      "group_id": "0",
+      "proposed_delay_ns": 157.715,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 403,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block403::event403",
+      "group_id": "2",
+      "proposed_delay_ns": 868.2620000000002,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 408,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block408::event408",
+      "group_id": "1",
+      "proposed_delay_ns": 293.8470000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 418,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block418::event418",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 427,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block427::event427",
+      "group_id": "0",
+      "proposed_delay_ns": 195.898,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 429,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block429::event429",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 431,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block431::event431",
+      "group_id": "0",
+      "proposed_delay_ns": 300.48800000000006,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 444,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block444::event444",
+      "group_id": "0",
+      "proposed_delay_ns": 260.6445,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 448,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block448::event448",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 450,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block450::event450",
+      "group_id": "0",
+      "proposed_delay_ns": 1459.277,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 476,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block476::event476",
+      "group_id": "0",
+      "proposed_delay_ns": 1449.317,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 494,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block494::event494",
+      "group_id": "0",
+      "proposed_delay_ns": 411.718,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 532,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block532::event532",
+      "group_id": "0",
+      "proposed_delay_ns": 607.6179999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 542,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block542::event542",
+      "group_id": "0",
+      "proposed_delay_ns": 728.808,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 544,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block544::event544",
+      "group_id": "0",
+      "proposed_delay_ns": 1364.6480000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 545,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block545::event545",
+      "group_id": "0",
+      "proposed_delay_ns": 356.93300000000005,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 548,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block548::event548",
+      "group_id": "0",
+      "proposed_delay_ns": 71.387,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 549,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block549::event549",
+      "group_id": "0",
+      "proposed_delay_ns": 1172.07,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 555,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block555::event555",
+      "group_id": "0",
+      "proposed_delay_ns": 617.578,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 564,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block564::event564",
+      "group_id": "0",
+      "proposed_delay_ns": 961.23,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 569,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block569::event569",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 572,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block572::event572",
+      "group_id": "0",
+      "proposed_delay_ns": 987.7929999999999,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 593,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block593::event593",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 627,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block627::event627",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 634,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block634::event634",
+      "group_id": "0",
+      "proposed_delay_ns": 554.4920000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 642,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block642::event642",
+      "group_id": "0",
+      "proposed_delay_ns": 215.82099999999997,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 644,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block644::event644",
+      "group_id": "0",
+      "proposed_delay_ns": 1130.567,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 649,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block649::event649",
+      "group_id": "0",
+      "proposed_delay_ns": 227.44099999999997,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 659,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block659::event659",
+      "group_id": "0",
+      "proposed_delay_ns": 1284.961,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 669,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block669::event669",
+      "group_id": "0",
+      "proposed_delay_ns": 356.93300000000005,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 675,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block675::event675",
+      "group_id": "0",
+      "proposed_delay_ns": 708.8870000000001,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 680,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block680::event680",
+      "group_id": "0",
+      "proposed_delay_ns": 1462.597,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 693,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block693::event693",
+      "group_id": "0",
+      "proposed_delay_ns": 265.625,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 710,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block710::event710",
+      "group_id": "1",
+      "proposed_delay_ns": 1238.476,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 719,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block719::event719",
+      "group_id": "0",
+      "proposed_delay_ns": 180.958,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 724,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block724::event724",
+      "group_id": "0",
+      "proposed_delay_ns": 481.44500000000005,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 733,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block733::event733",
+      "group_id": "",
+      "proposed_delay_ns": null,
+      "decision": "exclude",
+      "user_note": ""
+    },
+    {
+      "event_id": 737,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block737::event737",
+      "group_id": "2",
+      "proposed_delay_ns": 1474.219,
+      "decision": "accept_quality",
+      "user_note": ""
+    },
+    {
+      "event_id": 738,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block738::event738",
+      "group_id": "0",
+      "proposed_delay_ns": 302.14900000000006,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 772,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block772::event772",
+      "group_id": "0",
+      "proposed_delay_ns": 549.512,
+      "decision": "pending",
+      "user_note": ""
+    },
+    {
+      "event_id": 781,
+      "uid": "Datos/Med_con_Decaimientos/decaimientos.txt::block781::event781",
+      "group_id": "0",
+      "proposed_delay_ns": 63.08500000000001,
+      "decision": "exclude",
+      "user_note": ""
+    }
+  ]
+}

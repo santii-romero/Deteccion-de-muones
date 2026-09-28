@@ -1,0 +1,9 @@
+{
+  "scripts/build_report.py": "543d4d75892e004b5dd85b15e4fd2264c4fa98f59c81a4d4d27e302e8fb18b87",
+  "results/lifetime_fit.json": "1a8cd9ba42880a16ae8c7e3d09dcc11787a0242be4fe22577049558a49f5d5fb",
+  "output/informe.html": "c44607b9783d47845883558e7171c0ef9d28c6619f3f87c953662b0accc0f44b",
+  "output/pdf/proyecto_muones.pdf": "882969391ce65da2f744a3e1b79a4d809e08dadf71c3be08d1ff0adc817ccc3e",
+  "results/figures/lifetime.png": "ac7dd251e53353ea78c52bec6399c58bed116ddd4358a64951b8d6c8321cd9c9",
+  "results/figures/setup.png": "fcaaf7b213bb37dbd34c0be3a504e2d0280373825d9624342c580cf476ec9e58",
+  "results/figures/signals.png": "cecf9df72e4ddc2bf9a21988ec3325bf1d0d0f685fc192efe47778649fa139e4"
+}

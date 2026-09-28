@@ -1,0 +1,17 @@
+{
+  "Datos/Med_con_Decaimientos/7-9_9-9/run_20260907_140421_idx124_selected.txt::block130::event54053": {
+    "review": "visually_inspected_distinct_excursion",
+    "observation": "CH2 anterior localizado sobre oscilación, con dos mínimos y recuperación; se conserva por los mismos cortes automáticos. No identifica origen accidental independiente.",
+    "reviewer": "Codex, no ciega, galería off_controls.png fila 1"
+  },
+  "Datos/Med_con_Decaimientos/7-9_9-9/run_20260907_140421_idx310_selected.txt::block22::event134535": {
+    "review": "visually_inspected_distinct_excursion",
+    "observation": "CH2 anterior de gran amplitud, con estructura en recuperación sobre oscilación. Se conserva sin recorte visual adicional.",
+    "reviewer": "Codex, no ciega, galería off_controls.png fila 2"
+  },
+  "Datos/Med_con_Decaimientos/PAblo/run_20260904_134314_idx669_selected.txt::block137::event271286": {
+    "review": "visually_inspected_distinct_excursion",
+    "observation": "CH2 anterior de gran amplitud y cola de recuperación distinguible; sin pulso coincidente comparable en CH1/CH3. Origen físico no confirmado.",
+    "reviewer": "Codex, no ciega, galería off_controls.png fila 3"
+  }
+}

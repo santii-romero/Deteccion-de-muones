@@ -1,0 +1,19 @@
+# Mediciones originales locales y respaldos: nunca forman parte de esta entrega.
+Datos/
+backups/
+*_respaldo*/
+.local_backup.json
+.local_cleanup.json
+
+# Entorno e intermediarios regenerables.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+tmp/
+output/entrega_preparada/
+
+# Los datos derivados y los dos informes finales SI se versionan.

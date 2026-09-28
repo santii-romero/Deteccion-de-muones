@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "events_txt": 847,
+  "selected_txt": 525,
+  "previous_events_in_likelihood": 0,
+  "previous_event_decisions_preserved": 192680,
+  "excluded_300_metadata_preserved": 23727,
+  "tests_passed": 31,
+  "raw_waveform_verification_receipt": true,
+  "simulation_reproduction_receipt": true,
+  "pdf_files": 1,
+  "pdf_pages": 5,
+  "html_files": 1,
+  "html_embedded_images": 3,
+  "nominal_intervals_conditional_on_model": true,
+  "html_browser_visual_check": "unavailable: in-app browser unavailable; browser inventory empty"
+}

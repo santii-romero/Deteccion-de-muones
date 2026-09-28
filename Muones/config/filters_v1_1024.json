@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-scope1024",
+  "description": "Conservative morphological candidates; development traces only. All times in exported ns, voltages in mV.",
+  "expected_samples": [
+    1024
+  ],
+  "prompt_search_ns": [
+    170,
+    270
+  ],
+  "baseline_exclude_ns": [
+    160,
+    300
+  ],
+  "seed_amplitude_mV": 45.0,
+  "seed_sigma": 3.0,
+  "seed_prominence_mV": 30.0,
+  "seed_prominence_sigma": 2.5,
+  "peak_distance_ns": 5.0,
+  "amplitude_mV": 80.0,
+  "amplitude_sigma": 4.5,
+  "width_min_ns": 3.0,
+  "width_max_ns": 35.0,
+  "coincidence_ns": 15.0,
+  "min_delay_ns": 60.0,
+  "edge_margin_ns": 35.0,
+  "local_radius_ns": 45.0,
+  "positive_mV": 80.0,
+  "positive_sigma": 5.0,
+  "max_noise_mV": 60.0,
+  "max_drift_mV": 25.0,
+  "rail_mV": 499.9,
+  "max_baseline_rail_fraction": 0.02,
+  "noise_floor_mV": 0.1,
+  "random_seed": 20260927
+}

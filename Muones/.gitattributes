@@ -1,0 +1,2 @@
+# Preserve exact bytes: the reproducibility manifests hash text and binary files.
+* -text

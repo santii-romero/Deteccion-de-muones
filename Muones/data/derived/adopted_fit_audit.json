@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source_events": 847,
+  "fit_events": 525,
+  "previous_events_used": 0,
+  "source_sha256": "2907d899a5cb5c8e61e2a2eb12a0b3c203aaf411a2b00c2e00645c5eb5a5f7c9",
+  "input_and_report_hashes_verified": 18,
+  "preserved_historical_output_hashes_verified": 40,
+  "active_configuration_matches_versioned_snapshot": true,
+  "historical_active_hash_checked_against_historical_snapshot": true,
+  "unchanged_baseline_times": 500,
+  "exact_validated_sample_times_and_windows": true,
+  "edge_excluded_ids": [
+    373,
+    737
+  ],
+  "quality_approvals_preserved": true,
+  "per_event_normalization_checked": true,
+  "background": 0,
+  "event_weight": 1,
+  "tests_passed": 31,
+  "validation_reused": true,
+  "conditional_simulations": 3000,
+  "pdf_pages": 1,
+  "visual_qa": "PDF page and scientific figure inspected"
+}

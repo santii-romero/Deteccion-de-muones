@@ -1,0 +1,139 @@
+{
+  "status": "documented_previous_analysis_not_reexecuted",
+  "repository": "https://github.com/santii-romero/Deteccion-de-muones",
+  "branch": "identificador",
+  "commit": "fd262213fcaab221b771617b49f47769f9e1c83c",
+  "raw_data_available": false,
+  "user_confirmed_unavailable": true,
+  "instrument_identification": "Atucha-II inferred in the previous analysis from geometry and literature; not independently certified provenance",
+  "data_sets": {
+    "science_images": 492,
+    "dark_images": 9,
+    "dark_root_exports": 9
+  },
+  "sensor": {
+    "pixel_um": 15,
+    "thickness_um": 675,
+    "column_binning": 10,
+    "readings_per_pixel": 300
+  },
+  "composition": {
+    "images": 30,
+    "traces": 6251,
+    "counts": {
+      "electron": 2963,
+      "puntual": 1712,
+      "muon": 1316,
+      "artefacto": 260
+    },
+    "muon_peak_kev": 400,
+    "muon_median_kev": 496,
+    "active_mass_g": 2.2167,
+    "gain_adu_per_e": [
+      865,
+      859,
+      748,
+      772
+    ],
+    "gain_std": [
+      4,
+      3,
+      9,
+      7
+    ],
+    "noise_e": [
+      0.208,
+      0.191,
+      0.276,
+      0.256
+    ],
+    "noise_std": [
+      0.005,
+      0.004,
+      0.005,
+      0.005
+    ],
+    "method_version_not_independently_verified": true
+  },
+  "network_validation": {
+    "images": 300,
+    "reference_traces": 15434,
+    "labels": "automatic_morphological_rules",
+    "muon": {
+      "map50": 0.9,
+      "precision": 0.83,
+      "recall": 0.82
+    },
+    "electron": {
+      "map50": 0.86,
+      "precision": 0.83,
+      "recall": 0.78
+    },
+    "puntual": {
+      "map50": 0.88,
+      "precision": 0.83,
+      "recall": 0.92
+    },
+    "artefacto": {
+      "map50": 0.94,
+      "precision": 0.88,
+      "recall": 0.89
+    },
+    "alfa": {
+      "map50_approx": 0,
+      "recall": 0,
+      "reference_cases": 9
+    },
+    "short_muon_reference_cases": 446,
+    "short_muon_called_muon_v1": 0.01,
+    "short_muon_called_muon_v2": 0.31
+  },
+  "hybrid_comparison": {
+    "files": 75,
+    "reference_traces": 15554,
+    "agreement_muon_old": 0.78,
+    "agreement_muon_hybrid": 0.8,
+    "agreement_electron_old": 0.79,
+    "agreement_electron_hybrid": 0.86,
+    "agreement_puntual_old": 0.91,
+    "agreement_puntual_hybrid": 0.98,
+    "agreement_artefacto_old": 0.85,
+    "agreement_artefacto_hybrid": 0.89
+  },
+  "reconstruction_checks": {
+    "fragmented_muon_candidates_before": 55,
+    "after": 8,
+    "root_fits_equivalence_dark_images_reported": 9
+  },
+  "source_files": {
+    "README.md": "README_detector.md",
+    "docs/bitacora/bitacora.tex": "bitacora_source.tex",
+    "docs/bitacora/figuras/resumen.txt": "summary_source.txt",
+    "docs/bitacora/figuras/deteccion_atucha.png": "detections_source.png",
+    "docs/bitacora/figuras/espectro_atucha.png": "spectrum_source.png",
+    "docs/bitacora/generar_figuras.py": "generate_figures_source.py",
+    "particulas/core.py": "core_source.py",
+    "particulas/pipeline.py": "pipeline_source.py",
+    "particulas/instrumentos.py": "instruments_source.py",
+    "para_entrenar/criterios.yaml": "criteria_source.yaml"
+  },
+  "source_sha256": {
+    "README_detector.md": "e20b5582ecf5021358553e25bd15c88534480bc291ee5fc9b05c0915894f1c6a",
+    "bitacora_source.tex": "b8fe993cd4754c66659a6d6f5146955a93f44896f77c6a9d3c6a3de8ff3aba3e",
+    "summary_source.txt": "0c4498ba481ddbd18b6f17369c2744af6ce239d830424123f396cb976357d053",
+    "detections_source.png": "4156cba7f6f3e5cf14e09873f43427941ebedb39137b43fae04d6c184a7b3d3e",
+    "spectrum_source.png": "ca2a3bf7462971fdb20dd6aabe55b49d616243101f4bfe1edb3c137247629fe8",
+    "generate_figures_source.py": "d86702fba541935521029dcd5b38c4ebb0c83bf3e7296f4866ee18b5e20717ac",
+    "core_source.py": "f274d9c17b09121e0a24cdaa0bc3beb8d8c9cfc7e25e3bf0ed9033f973d251d2",
+    "pipeline_source.py": "c55fa94a946911d4bbbdf6ed1c4c790bb0492bdd21cd4553d3bd4410e57bafd4",
+    "instruments_source.py": "1a705b583a4ea74c5bb778b860237bc9acf90048a501537761b5efff4600a75c",
+    "criteria_source.yaml": "6afce12c6bdc7d77ad079d7410518adeb2236282969810edfba4260a3c5a0ab1"
+  },
+  "limitations": [
+    "no raw images or per-event validation tables available for this integration",
+    "composition, neural validation and hybrid comparison have different denominators",
+    "labels do not establish particle identity or physical purity",
+    "exposure 32-37 minutes inferred; absolute flux discrepancy remains unresolved",
+    "saturated charge and masked columns can underestimate energy"
+  ]
+}

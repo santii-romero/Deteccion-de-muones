@@ -10,8 +10,18 @@
   "simulation_reproduction_receipt": true,
   "pdf_files": 1,
   "pdf_pages": 5,
+  "pdf_created_with_latex": true,
   "html_files": 1,
-  "html_embedded_images": 3,
+  "html_embedded_images": 4,
+  "scope": "joint_temporal_and_spatial_report",
+  "ccd_documentary_sources_verified": 11,
+  "ccd_raw_data_available": false,
+  "ccd_analysis_reexecuted": false,
+  "ccd_composition_traces": 6251,
+  "ccd_network_reference_traces": 15434,
+  "ccd_hybrid_reference_traces": 15554,
+  "histogram_normalization_verified": true,
+  "lifetime_legend_outside_axes": true,
   "nominal_intervals_conditional_on_model": true,
-  "html_browser_visual_check": "unavailable: in-app browser unavailable; browser inventory empty"
+  "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout"
 }

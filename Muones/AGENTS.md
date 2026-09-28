@@ -1,10 +1,16 @@
 # Instrucciones del proyecto de muones
 
+## Orden vigente: entregables conjuntos
+
+- El usuario pidió ahora integrar los dos análisis y aplicar las preferencias: PDF auténtico de LaTeX de máximo cinco páginas, HTML independiente, montaje en texto con plomo, sin nombres de mediciones ni IDs en el relato y leyenda del ajuste exterior. Leer `docs/INTEGRACION_DOS_ANALISIS.md`.
+- Confirmó que no dispone de datos originales ni tablas completas de validación del CCD. Integrar sus resultados documentados con procedencia, sin afirmar una nueva ejecución. Para el montaje docente usar solo disposición y datos confirmados; no inventar dimensiones.
+- La integración no cambia los 525 tiempos, selecciones, pesos, fondo o intervalos; tampoco suma datos del CCD al ajuste temporal. La rama `identificador` permanece intacta. Esta orden sustituye la espera editorial de los apartados siguientes.
+
 ## Destino de publicación autorizado
 
-- El usuario proporcionó `https://github.com/santii-romero/Deteccion-de-muones.git` y ordenó subir esta carpeta como `Muones/` en la rama `main`. La rama `identificador`, donde está `Proyecto-detector/`, debe permanecer intacta. Esta autorización actualiza la espera por acceso indicada más abajo; no autoriza todavía la integración científica ni las correcciones editoriales pendientes.
+- El usuario proporcionó `https://github.com/santii-romero/Deteccion-de-muones.git` y ordenó subir esta carpeta como `Muones/` en la rama `main`. La rama `identificador`, donde está `Proyecto-detector/`, debe permanecer intacta. La orden posterior de integración autoriza los entregables conjuntos y las correcciones editoriales descritos arriba; conservar el análisis temporal adoptado.
 
-## Preferencias editoriales pendientes y próxima integración
+## Historia: preferencias antes de la orden de integración
 
 - Leer `docs/PREFERENCIAS_ENTREGA.md`. El usuario ordenó guardar estas preferencias sin aplicarlas todavía: describir el montaje en texto, retirar nombres de archivos de mediciones e IDs particulares del relato público, corregir la leyenda superpuesta y producir el PDF mediante LaTeX con estilo de informe académico. El HTML podrá tener una presentación diferente.
 - El usuario confirmó que la barra es de plomo; las dimensiones siguen pendientes. Esta aclaración prevalece sobre las menciones anteriores de material desconocido. Guardar la información para la futura revisión, sin modificar ahora el modelo o las selecciones.

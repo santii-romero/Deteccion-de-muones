@@ -1,5 +1,7 @@
 # Preferencias para la futura entrega conjunta
 
+**Actualización vigente:** el usuario autorizó aplicar estas preferencias al informe conjunto. Se incorporaron ambos análisis y se generó un PDF LaTeX de cinco páginas y un HTML con estructura propia. Ver `INTEGRACION_DOS_ANALISIS.md`. El texto siguiente conserva el registro de la decisión anterior; ya no implica una espera.
+
 Registradas el 28-09-2026 por indicación del usuario. **Guardar ahora; no aplicar todavía las correcciones editoriales siguientes.** La única modificación inmediata autorizada de los entregables es añadir a **Theo Del Compare y Santiago Romero** como integrantes.
 
 ## Correcciones pendientes

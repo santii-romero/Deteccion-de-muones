@@ -1,21 +1,149 @@
 {
   "pdf_pages_inspected": 5,
-  "renderer": "PyMuPDF 120 dpi",
-  "pdf_sha256": "882969391ce65da2f744a3e1b79a4d809e08dadf71c3be08d1ff0adc817ccc3e",
-  "html_sha256": "c44607b9783d47845883558e7171c0ef9d28c6619f3f87c953662b0accc0f44b",
-  "pdf_findings": "First page re-inspected after authorship addition. Names readable and clear of header and title. Pages 2-5 render identically to the previously inspected PDF.",
-  "html_browser_visual_check": "unavailable: in-app browser unavailable; browser inventory empty",
-  "html_validation": "Shared report content, local links, sections and embedded PNG images checked structurally",
-  "authorship_update": {
+  "renderer": "Poppler pdftoppm 120 dpi",
+  "pdf_sha256": "8397e1fba067923ce47f16d1c598b719df8bff697a6a0da0a4ca63f98c174b30",
+  "html_sha256": "d764d39b25723fa9211b97c7d82c3a5995a2f7ce3a5d9b8c5f22989b8784bf97",
+  "pdf_findings": "All five final pages visually inspected: titles, authors, equations, tables, four figures, references and page numbers readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
+  "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout",
+  "browser_checks": {
+    "desktop": {
+      "cases": [
+        {
+          "label": "Común 1400 ns",
+          "result": "500 eventos · τ = 1,799 µs · intervalo nominal 68 %: [1,474; 2,307] µs"
+        },
+        {
+          "label": "Común 1425 ns",
+          "result": "507 eventos · τ = 1,811 µs · intervalo nominal 68 %: [1,489; 2,310] µs"
+        },
+        {
+          "label": "Común 1450 ns",
+          "result": "516 eventos · τ = 1,896 µs · intervalo nominal 68 %: [1,553; 2,429] µs"
+        },
+        {
+          "label": "Fin individual menos 35 ns",
+          "result": "515 eventos · τ = 1,832 µs · intervalo nominal 68 %: [1,511; 2,326] µs"
+        },
+        {
+          "label": "Fin individual menos 25 ns",
+          "result": "523 eventos · τ = 2,027 µs · intervalo nominal 68 %: [1,646; 2,634] µs"
+        },
+        {
+          "label": "Fin individual menos 10 ns",
+          "result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
+        },
+        {
+          "label": "Hasta el fin individual",
+          "result": "527 eventos · τ = 1,923 µs · intervalo nominal 68 %: [1,583; 2,449] µs"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 2100
+        },
+        {
+          "loaded": true,
+          "width": 1980
+        },
+        {
+          "loaded": true,
+          "width": 2000
+        },
+        {
+          "loaded": true,
+          "width": 1890
+        }
+      ],
+      "sections": 7,
+      "viewport": 1182,
+      "document_width": 1182,
+      "no_horizontal_overflow": true,
+      "public_text_has_event_id": false,
+      "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
+    },
+    "mobile": {
+      "cases": [
+        {
+          "label": "Común 1400 ns",
+          "result": "500 eventos · τ = 1,799 µs · intervalo nominal 68 %: [1,474; 2,307] µs"
+        },
+        {
+          "label": "Común 1425 ns",
+          "result": "507 eventos · τ = 1,811 µs · intervalo nominal 68 %: [1,489; 2,310] µs"
+        },
+        {
+          "label": "Común 1450 ns",
+          "result": "516 eventos · τ = 1,896 µs · intervalo nominal 68 %: [1,553; 2,429] µs"
+        },
+        {
+          "label": "Fin individual menos 35 ns",
+          "result": "515 eventos · τ = 1,832 µs · intervalo nominal 68 %: [1,511; 2,326] µs"
+        },
+        {
+          "label": "Fin individual menos 25 ns",
+          "result": "523 eventos · τ = 2,027 µs · intervalo nominal 68 %: [1,646; 2,634] µs"
+        },
+        {
+          "label": "Fin individual menos 10 ns",
+          "result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
+        },
+        {
+          "label": "Hasta el fin individual",
+          "result": "527 eventos · τ = 1,923 µs · intervalo nominal 68 %: [1,583; 2,449] µs"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 2100
+        },
+        {
+          "loaded": true,
+          "width": 1980
+        },
+        {
+          "loaded": true,
+          "width": 2000
+        },
+        {
+          "loaded": true,
+          "width": 1890
+        }
+      ],
+      "sections": 7,
+      "viewport": 582,
+      "document_width": 582,
+      "no_horizontal_overflow": true,
+      "public_text_has_event_id": false,
+      "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
+    }
+  },
+  "html_findings": "Header, morphology graphics, lifetime chart, CCD methods, composition, metrics, discussion and references inspected. Four images load; seven window choices work and reset to adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
+  "public_preferences": {
     "authors": [
       "Theo Del Compare",
       "Santiago Romero"
     ],
-    "pdf_metadata_updated": true,
-    "html_updated": true,
-    "other_pdf_pages_pixel_identical": true,
-    "figures_byte_identical": true,
-    "scientific_content_changed": false
+    "latex_pdf": true,
+    "montage_prose_only": true,
+    "lead_confirmed": true,
+    "dimensions_not_invented": true,
+    "no_measurement_filenames_or_event_ids": true,
+    "fit_legend_outside_data": true,
+    "html_has_distinct_structure": true
   },
-  "deferred_user_preferences": "docs/PREFERENCIAS_ENTREGA.md; includes the acknowledged existing fit-legend overlap. No correction applied at user request."
+  "scientific_content": {
+    "temporal_fit_byte_identical_to_previous_main": true,
+    "selected_events": 525,
+    "ccd_results_documentary_not_reexecuted": true,
+    "source_commit": "fd262213fcaab221b771617b49f47769f9e1c83c"
+  },
+  "visual_evidence_sha256": {
+    "tmp/latex/delivery-1.png": "59e31d1bd87a5e0bd09cbbfe891827f595abe4270c8899055f8749b4216e3064",
+    "tmp/latex/delivery-2.png": "88a7412a410e8202126e8c0c6dfc227ec95e6e473833bf5fdce75956e2473c00",
+    "tmp/latex/delivery-3.png": "34749b05530598631fb9b82cc16d55d2458c6f9488ee3e17566ba7aeb16466c2",
+    "tmp/latex/delivery-4.png": "125893916e168a8a95469638aa25694fd5f322050725de3742fa5141c6097497",
+    "tmp/latex/delivery-5.png": "e6c9e359316c600e52f26877aaea8e9a32cbfeccaa61780726daa36c015198bb"
+  }
 }

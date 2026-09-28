@@ -1,0 +1,13 @@
+{
+  "data/reference/ccd/bitacora_source.tex": "b8fe993cd4754c66659a6d6f5146955a93f44896f77c6a9d3c6a3de8ff3aba3e",
+  "data/reference/ccd/core_source.py": "f274d9c17b09121e0a24cdaa0bc3beb8d8c9cfc7e25e3bf0ed9033f973d251d2",
+  "data/reference/ccd/criteria_source.yaml": "6afce12c6bdc7d77ad079d7410518adeb2236282969810edfba4260a3c5a0ab1",
+  "data/reference/ccd/detections_source.png": "4156cba7f6f3e5cf14e09873f43427941ebedb39137b43fae04d6c184a7b3d3e",
+  "data/reference/ccd/generate_figures_source.py": "d86702fba541935521029dcd5b38c4ebb0c83bf3e7296f4866ee18b5e20717ac",
+  "data/reference/ccd/instruments_source.py": "1a705b583a4ea74c5bb778b860237bc9acf90048a501537761b5efff4600a75c",
+  "data/reference/ccd/pipeline_source.py": "c55fa94a946911d4bbbdf6ed1c4c790bb0492bdd21cd4553d3bd4410e57bafd4",
+  "data/reference/ccd/README_detector.md": "e20b5582ecf5021358553e25bd15c88534480bc291ee5fc9b05c0915894f1c6a",
+  "data/reference/ccd/spectrum_source.png": "ca2a3bf7462971fdb20dd6aabe55b49d616243101f4bfe1edb3c137247629fe8",
+  "data/reference/ccd/summary_source.txt": "0c4498ba481ddbd18b6f17369c2744af6ce239d830424123f396cb976357d053",
+  "data/derived/ccd_summary.json": "f54057694c5f3b1db15a7c104a9969a8ab17a7ddb70b29d84f726b88d5e8776c"
+}

@@ -1,0 +1,9 @@
+{
+  "results/figures/lifetime.png": {
+    "previous_sha256": "ac7dd251e53353ea78c52bec6399c58bed116ddd4358a64951b8d6c8321cd9c9",
+    "previous_preserved_path": "data/reference/temporal/lifetime_previous.png",
+    "current_sha256": "0a30a267ecbb2e030b8d3dc95a05be4601a50e56cd93010ed7e65000bbd1f01d",
+    "reason": "User requested an exterior legend. Rebuilt histogram with uniform 80 ns bins and expected counts integrated using unchanged 525-event fit and individual windows.",
+    "base_commit": "18e44169c37e157adf04c5205da9a860dae36a02"
+  }
+}

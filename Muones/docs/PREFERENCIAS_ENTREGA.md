@@ -1,5 +1,7 @@
 # Preferencias para la futura entrega conjunta
 
+**Revisión posterior aplicada:** PDF organizado en objetivo, centelladores, detector con datos del Laboratorio Lambda y discusión comparativa; sin fecha de emisión. Correos enlazados a los nombres: `Theo.Del.Compare@gmail.com` y `romerosantiago545@gmail.com`. Ambos entregables reconocen la ayuda de Claude (Anthropic) y Codex (OpenAI). Lambda proporcionó los datos; no se afirma que el detector estuviera ubicado allí.
+
 **Actualización vigente:** el usuario autorizó aplicar estas preferencias al informe conjunto. Se incorporaron ambos análisis y se generó un PDF LaTeX de cinco páginas y un HTML con estructura propia. Ver `INTEGRACION_DOS_ANALISIS.md`. El texto siguiente conserva el registro de la decisión anterior; ya no implica una espera.
 
 Registradas el 28-09-2026 por indicación del usuario. **Guardar ahora; no aplicar todavía las correcciones editoriales siguientes.** La única modificación inmediata autorizada de los entregables es añadir a **Theo Del Compare y Santiago Romero** como integrantes.

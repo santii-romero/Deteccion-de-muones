@@ -17,28 +17,28 @@
 \newcommand{\eminus}{\ensuremath{e^-}}
 \newcommand{\inlinefig}[3]{\begin{center}\includegraphics[width=#1\textwidth]{figures/#2}\captionof{figure}{#3}\end{center}}
 \title{\vspace{-1.2cm}\textbf{Análisis de muones con centelladores\newline y un detector Skipper-CCD}}
-\author{Theo Del Compare \quad y \quad Santiago Romero}
-\date{Laboratorio 5 \quad $\cdot$ \quad 28 de septiembre de 2026}
+\author{\href{mailto:Theo.Del.Compare@gmail.com}{Theo Del Compare} \quad y \quad \href{mailto:romerosantiago545@gmail.com}{Santiago Romero}}
+\date{}
 \begin{document}
 \begin{center}
 {\Large\bfseries Análisis de muones con centelladores\\[2pt] y un detector Skipper-CCD}\\[5pt]
-Theo Del Compare \quad y \quad Santiago Romero\\[2pt]
-{\small Laboratorio 5 $\cdot$ 28 de septiembre de 2026}
+\href{mailto:Theo.Del.Compare@gmail.com}{Theo Del Compare} \quad y \quad \href{mailto:romerosantiago545@gmail.com}{Santiago Romero}\\[2pt]
+{\small Laboratorio 5}
 \end{center}
 \vspace{-2mm}
-\begin{abstract}
-Se reúnen dos análisis de señales producidas por partículas ionizantes. Con centelladores de un laboratorio de enseñanza se revisaron formas de onda, se seleccionaron 525 candidatos con pulso secundario y se estimó una escala de decaimiento de $\tau=1{,}948$~\us{} mediante una exponencial normalizada en la ventana de cada registro. En un detector profesional Skipper-CCD se reconstruyeron y clasificaron trazas a partir de carga, geometría y una red neuronal. El resumen conservado de 30 imágenes contiene 6251 trazas, 1316 etiquetadas como muones. Las dos técnicas aportan información temporal y espacial complementaria. Sus selecciones, denominadores y limitaciones se mantienen separados.
-\end{abstract}
+\section{Objetivo del proyecto}
+El proyecto analiza señales de partículas ionizantes, particularmente muones, usando mediciones con instrumental de un laboratorio de enseñanza y datos de un detector profesional proporcionados por el Laboratorio Lambda. En los centelladores se identifican pulsos y coincidencias, se seleccionan candidatos con secundario separado y se estima una escala de decaimiento. En el Skipper-CCD se reconstruyen depósitos de carga y se clasifican trazas mediante geometría, energía y una red neuronal.
 
-\section{Objetivo y análisis con centelladores}
-Los muones pueden dejar señales al atravesar un detector y, al detenerse y decaer, producir un segundo depósito separado en el tiempo. El objetivo es construir selecciones trazables, distinguir señales compatibles de respuestas espurias y estimar magnitudes que la adquisición permita observar. Un pulso secundario o una traza recta constituyen criterios de selección; la identidad de la partícula no queda certificada por su forma.
+La comparación examina qué permite observar cada técnica, cómo se distinguen señales de respuestas espurias y qué sostienen sus validaciones e incertidumbres. Se busca información temporal y espacial complementaria; un pulso secundario o una traza recta no certifican por sí solos identidad física, y las dos muestras no se combinan en un ajuste de vida media.
 
-\subsection*{Montaje y adquisición}
+\section{Desarrollo y análisis con centelladores}
+
+\subsection{Montaje y adquisición}
 El montaje docente tiene tres centelladores: superior, central e inferior, asociados a CH1, CH2 y CH3. Una barra de \textbf{plomo} se ubica entre el central y el inferior. El disparo se produce en CH1 y se exige respuesta adicional en CH2 para guardar el evento; CH3 no se exige. Se utiliza la configuración confirmada del experimento, con la guía docente como referencia~\cite{guia}. Las dimensiones de la barra y de los centelladores no están disponibles.
 
 Se conservaron cinco corridas de septiembre con 192\,680 registros y una adquisición independiente con 847 señales, preseleccionadas por un pico secundario apartado. Solo se analizaron registros de \textbf{1024 muestras}: tiempo en ns y voltajes en mV, ventana exportada de 0 a 1698{,}340~ns y paso aproximado de 1{,}660~ns. Los registros de 300 puntos quedaron fuera del análisis. Se comprobaron estructura, finitud, monotonicidad, unidades y duplicados. Los retardos se obtienen del eje de la forma de onda; las marcas del reloj no proporcionan por sí solas tiempo vivo. El rechazo de voltajes positivos durante adquisición no tiene una condición exacta documentada.
 
-\subsection*{Filtros y revisión}
+\subsection{Filtros y revisión}
 Sin suavizar las muestras, la base se estima por mediana y el ruido por $\sigma=1{,}4826\,\mathrm{MAD}$ fuera de 160--300~ns. Esta escala robusta no se interpreta como significancia gaussiana. El detector de picos utiliza altura, prominencia y separación~\cite{scipy}.
 \begin{center}\small
 \begin{tabularx}{\textwidth}{@{}lX@{}}\toprule
@@ -51,7 +51,7 @@ Calidad & Se identifican ruido excesivo, base saturada, impulsos aislados y osci
 \inlinefig{.93}{signals_pdf.png}{Dos ejemplos morfológicos del secundario. Una semilla débil acompañada por un pulso claro puede aprobarse tras revisión. Las muestras originales se conservan sin suavizado.}
 
 \newpage
-\section{Selección temporal y vida media}
+\subsection{Selección temporal y vida media}
 El ajuste final utiliza exclusivamente la adquisición independiente: ningún candidato de las primeras corridas contribuye a su verosimilitud. Se exige coincidencia inicial aceptada y ausencia de CH3 inicial detectado sobre umbral. CH1 tardío no veta el evento ni determina el tiempo del secundario, que se obtiene de CH2/CH3. Las decisiones humanas resuelven calidad sin reemplazar tiempos ni borrar las etiquetas automáticas.
 \begin{center}\small
 \begin{tabular}{@{}lr@{}}\toprule
@@ -66,7 +66,7 @@ Fuera por el margen final & 2 \\\bottomrule
 \end{tabular}\end{center}
 La revisión de 88 casos produjo 80 aprobaciones y ocho exclusiones. Con la ventana adoptada, 67 de los aprobados entran al ajuste; cuatro quedan bajo el mínimo, dos en el borde y siete carecen de tiempo utilizable. Los pendientes permanecen identificados en los registros técnicos.
 
-\subsection*{Modelo condicionado a la ventana}
+\subsection{Modelo condicionado a la ventana}
 Para cada retardo $t_i$ se usa $a=0{,}120$~\us{} y $U_i=T_{\mathrm{final},i}-T_{\mathrm{CH1},i}-0{,}010$~\us. Los límites superiores observados son 1{,}461--1{,}492~\us. Con fondo fijado en cero y peso uno por evento, la densidad es
 \begin{equation}
 p(t_i\mid\tau,U_i)=\frac{e^{-t_i/\tau}}{\tau\left(e^{-a/\tau}-e^{-U_i/\tau}\right)},\qquad a\leq t_i\leq U_i.
@@ -80,14 +80,14 @@ La cota común de 1400~ns daba 500 eventos y 1{,}799~\us; extender a cada final 
 En las corridas previas, controles pareados de 120--170~ns produjeron tres secundarios anteriores y 15 posteriores en 87\,915 padres elegibles. No calibran el fondo de la adquisición preseleccionada; fondo cero es una hipótesis de este ajuste. Pasaron 31 pruebas de código y 3000 simulaciones condicionales: coberturas locales del 68/95\,\% de 67{,}77/94{,}87\,\%. Las simulaciones no aumentan la muestra experimental.
 
 \newpage
-\section{Detector profesional: reconstrucción espacial}
-\subsection*{Datos e instrumental}
-La segunda etapa utiliza imágenes Skipper-CCD de silicio. Las lecturas no destructivas repetidas de la carga permiten reducir el ruido~\cite{skipper}. El análisis anterior identificó el conjunto científico con Atucha-II por geometría, modo de lectura y concordancia con la literatura~\cite{atucha}; esa identificación no equivale a certificar nuevamente su procedencia.
+\section{Desarrollo y análisis del detector con datos del Laboratorio Lambda}
+\subsection{Datos e instrumental}
+La segunda etapa utiliza datos de un detector profesional Skipper-CCD de silicio proporcionados por el Laboratorio Lambda. Las lecturas no destructivas repetidas de la carga permiten reducir el ruido~\cite{skipper}. La bibliografía sobre el instrumento de Atucha-II se utiliza como referencia de geometría y modo de lectura~\cite{atucha}; su coincidencia con estas características no certifica la ubicación ni la identidad del detector de origen.
 Se documentaron 492 imágenes científicas de 2025 con agrupamiento de diez columnas y nueve imágenes de control de 2020 sin ese agrupamiento, con cuatro amplificadores por imagen. Los FITS y ROOT del control son exportaciones equivalentes, no 18 exposiciones. El sensor tiene píxeles de $15\times15~\mu$m$^2$ y 675~$\mu$m de espesor. El origen exacto del control no está documentado.
 
 Las 300 lecturas no destructivas por píxel del CCD son un parámetro del sensor y no los registros de 300 puntos excluidos del análisis temporal. La exposición media del conjunto científico se infirió en 32--37~min; no se la toma como tiempo vivo certificado.
 
-\subsection*{Calibración, agrupación y reglas}
+\subsection{Calibración, agrupación y reglas}
 Por amplificador, el pedestal se resta usando la zona de lectura sin señal (\emph{overscan}); su MAD caracteriza el ruido. La ganancia se obtiene de los picos de cero, uno y más electrones mediante un modelo gaussiano convolucionado con Poisson. La carga se convierte a energía con 3{,}75~eV por par electrón-hueco. Se enmascaran columnas anómalas y valores no finitos.
 
 Se agrupan píxeles conectados con semilla de al menos 20~\eminus{} y crecimiento por encima de 4~\eminus. El corte total habitual es 60~\eminus{} (225~eV). La geometría se calcula en píxeles físicos, corrigiendo el agrupamiento de columnas. Se separan rectas dominantes de trazas cruzadas y se unen tramos colineales a través de huecos o columnas enmascaradas.
@@ -102,8 +102,7 @@ Alfa / artefacto / electrón & Depósito compacto de alta energía; líneas de r
 \inlinefig{.93}{ccd_detections.png}{Ilustración conservada del análisis previo: dos amplificadores con cajas por clase (rojo: muón; verde: electrón; azul: puntual; violeta: artefacto; amarillo: alfa). Las cajas y clases son propuestas del algoritmo, no identificaciones físicas independientes.}
 
 \newpage
-\section{Resultados del CCD y clasificación automática}
-\subsection*{Carga y composición de un subconjunto}
+\subsection{Resultados: carga y composición de un subconjunto}
 El resumen conservado de 30 imágenes reúne 6251 trazas. La masa activa calculada fue 2{,}2167~g, próxima a los 2{,}22~g publicados para el instrumento~\cite{atucha}. La tabla muestra medias de calibración y dispersión entre imágenes; las dispersiones no son incertidumbres sistemáticas de la escala.
 \begin{center}\small
 \begin{tabular}{@{}lcc@{}}\toprule
@@ -116,7 +115,7 @@ Amplificador & Ganancia [ADU/\eminus] & Ruido [\eminus] \\\midrule
 \inlinefig{.87}{ccd_composition.png}{Composición del subconjunto de 30 imágenes según las clases conservadas. No aparece la clase alfa en este resumen. Los porcentajes son fracciones de etiquetas, no fracciones físicas de partículas con pureza medida.}
 El análisis documentó una estructura de fluorescencia del cobre cerca de 8~keV, utilizada como contraste de la escala de energía. Para trazas etiquetadas como muones, el máximo del espectro se ubicó alrededor de 400~keV y la mediana en 496~keV. Son resúmenes de depósitos de energía; no permiten estimar tiempos de decaimiento. La saturación y las columnas enmascaradas pueden reducir la energía reconstruida.
 
-\subsection*{Red neuronal y método híbrido}
+\subsection{Red neuronal y método híbrido}
 Se entrenó YOLO11n con aproximadamente $10^5$ trazas autoetiquetadas por las reglas, usando canales de energía logarítmica, energía lineal y máscara de carga. La validación conservada del modelo v2 comprende 300 imágenes y 15\,434 trazas de referencia.
 \begin{center}\small
 \begin{tabular}{@{}lccc@{}}\toprule
@@ -132,7 +131,7 @@ La mAP50 resume la precisión promedio al comparar cajas con un umbral de superp
 En el método híbrido la reconstrucción determina los píxeles, caja y energía; la red propone la clase con superposición mínima de 0{,}3, y las reglas completan las trazas sin una caja asociada. En otra comparación, de 75 archivos y 15\,554 trazas, el acuerdo con las reglas para muones pasó del 78 al 80\,\%, para electrones del 79 al 86\,\%, para puntuales del 91 al 98\,\% y para artefactos del 85 al 89\,\%. Estas cifras tienen un denominador distinto del de la validación de la red. La unión de segmentos redujo de 55 a ocho los candidatos a muón fragmentados en los conjuntos examinados.
 
 \newpage
-\section{Discusión conjunta y conclusiones}
+\section{Discusión conjunta y comparativa}
 Los dos análisis parten de calibrar la respuesta y distinguir estructuras compatibles de ruido instrumental, pero observan propiedades diferentes. La revisión humana de pulsos y el aprendizaje sobre etiquetas morfológicas aportan controles útiles sin determinar por sí mismos identidad, pureza o aceptación.
 \begin{center}\small
 \begin{tabularx}{\textwidth}{@{}lXX@{}}\toprule
@@ -144,15 +143,18 @@ Validación & Revisión de señales, pruebas y simulaciones condicionales & Cons
 Límite principal & Ventana corta y aceptación no calibrada & Ambigüedad de clases y falta de etiquetas físicas independientes \\\bottomrule
 \end{tabularx}\end{center}
 
-\subsection*{Interpretación física y estadística}
+\subsection{Interpretación física y estadística}
 La estimación temporal es compatible, dentro de su intervalo nominal del 68\,\%, con los 2{,}197034~\us{} de la edición histórica del PDG usada como referencia~\cite{pdg}. Esta compatibilidad no demuestra que el modelo sea completo. La normalización individual corrige la truncación geométrica del registro, pero no una aceptación que cambie con el retardo. Fondo cero, respuesta tardía de la electrónica y calibración relativa entre canales siguen siendo condiciones o incertidumbres del análisis. Tampoco se distinguen las cargas del muón ni se cuantifica una posible captura de muones negativos en los materiales~\cite{capture}; no se presenta el estimador como una determinación certificada de la vida media libre.
 
 En el CCD, un electrón energético rectilíneo puede reproducir la firma de una partícula de mínima ionización. Las bandas de energía de trazas cortas difieren entre configuraciones; los alfas son escasos y la exposición no está confirmada. La comparación previa de tasas con una estimación de flujo cósmico dejó una discrepancia de aproximadamente un factor cuatro, sin cuantificar blindaje, aceptación y tiempo efectivo. No se interpreta esa comparación como eficiencia medida. Los conteos del CCD y los 525 retardos no se combinan en un mismo ajuste.
 
-\subsection*{Verificación y entrega}
+\subsection{Verificación y conclusiones}
 Para centelladores se conservan decisiones de las 847 señales, tiempos, ventanas, hashes y comprobación contra las muestras originales. El ajuste y sus intervalos permanecen iguales a la selección adoptada. En el CCD se integraron el código, la bitácora, figuras y resúmenes del análisis anterior; al no estar disponibles las imágenes originales ni las tablas completas de validación, esta integración comprueba consistencia documental, sin afirmar una nueva ejecución de calibración, entrenamiento o métricas.
 
-El código y la evidencia congelada permiten regenerar las figuras nuevas, el HTML autónomo y este PDF mediante LaTeX. La documentación conserva los criterios y la procedencia de cada decisión. Se concluye con una estimación temporal condicionada y una clasificación espacial reproducible en su implementación, con resultados anteriores trazables y límites explícitos. Las etapas ofrecen dos formas complementarias de estudiar señales compatibles con muones.
+El código y la evidencia congelada permiten regenerar las figuras nuevas y ambos informes. Se obtiene una estimación temporal condicionada y una herramienta de clasificación espacial, con resultados trazables y límites explícitos. Las etapas ofrecen información complementaria sobre señales compatibles con muones.
+
+\subsection*{Reconocimiento de asistencia de IA}
+Este trabajo se realizó con ayuda de Claude (Anthropic) y Codex (OpenAI) para desarrollar código, revisar el análisis y elaborar los informes. Las decisiones y la interpretación final corresponden a los autores.
 
 \vspace{1mm}
 {\small

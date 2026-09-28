@@ -22,6 +22,11 @@
   "ccd_hybrid_reference_traces": 15554,
   "histogram_normalization_verified": true,
   "lifetime_legend_outside_axes": true,
+  "pdf_main_sections": 4,
+  "publication_date_removed": true,
+  "author_mail_links_verified": true,
+  "ai_assistance_acknowledged": true,
+  "lambda_role": "data_provider_confirmed_by_user",
   "nominal_intervals_conditional_on_model": true,
   "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout"
 }

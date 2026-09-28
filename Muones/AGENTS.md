@@ -2,6 +2,7 @@
 
 ## Orden vigente: entregables conjuntos
 
+- Revisión editorial posterior: PDF con cuatro secciones principales (objetivo; desarrollo y análisis con centelladores; detector con datos del Laboratorio Lambda; discusión conjunta y comparativa), sin fecha de emisión. Nombres enlazados a `Theo.Del.Compare@gmail.com` y `romerosantiago545@gmail.com`; reconocimiento de asistencia de Claude (Anthropic) y Codex (OpenAI) en ambos formatos. Lambda proporcionó los datos, según aclaró el usuario; no atribuirle la ubicación física del detector. Conservar los resultados y el máximo de cinco páginas.
 - El usuario pidió ahora integrar los dos análisis y aplicar las preferencias: PDF auténtico de LaTeX de máximo cinco páginas, HTML independiente, montaje en texto con plomo, sin nombres de mediciones ni IDs en el relato y leyenda del ajuste exterior. Leer `docs/INTEGRACION_DOS_ANALISIS.md`.
 - Confirmó que no dispone de datos originales ni tablas completas de validación del CCD. Integrar sus resultados documentados con procedencia, sin afirmar una nueva ejecución. Para el montaje docente usar solo disposición y datos confirmados; no inventar dimensiones.
 - La integración no cambia los 525 tiempos, selecciones, pesos, fondo o intervalos; tampoco suma datos del CCD al ajuste temporal. La rama `identificador` permanece intacta. Esta orden sustituye la espera editorial de los apartados siguientes.

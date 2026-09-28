@@ -4,6 +4,7 @@ Orden del usuario del 28-09-2026: producir un PDF y un HTML conjuntos y aplicar 
 
 ## Fuentes y alcance
 
+- Aclaración posterior del usuario: el Laboratorio Lambda proporcionó los datos del detector. No se afirma que se adquirieron allí. La identificación con Atucha-II del análisis histórico permanece en las fuentes conservadas como inferencia; en el relato actual su bibliografía se usa como referencia instrumental, sin certificar el detector de origen.
 - Etapa temporal: configuración y evidencia congeladas de `main`, base publicada `18e44169c37e157adf04c5205da9a860dae36a02`. Solo los 525 retardos de la adquisición independiente; pesos uno, fondo cero, límite inferior 120 ns y final individual menos 10 ns. No se agregan las corridas previas ni datos de 300 puntos.
 - Etapa espacial: `identificador`, commit `fd262213fcaab221b771617b49f47769f9e1c83c`. Se preservaron diez fuentes documentales y de código con hashes en `data/reference/ccd/`, y se extrajo su síntesis en `data/derived/ccd_summary.json`. Su integridad se protege separadamente en `data/ccd_inputs_manifest.json`; no se altera el manifiesto temporal ni su comprobación original.
 - El CCD corresponde a la identificación instrumental inferida por el análisis previo mediante geometría y bibliografía. No se certifica nuevamente la procedencia de las imágenes. No se volvieron a calibrar imágenes, entrenar la red ni calcular métricas sobre datos ausentes.
@@ -21,6 +22,8 @@ La clase alfa no aparece en el resumen de 30 imágenes; en la validación de la 
 
 ## Cambios de presentación
 
+- Revisión posterior: cuatro secciones principales en el PDF, dedicadas al objetivo y comparación esperada, centelladores, detector con datos proporcionados por Lambda y discusión conjunta. Subapartados agrupan método y resultados dentro de cada análisis. El HTML mantiene su navegación detallada propia.
+- Se retiró la fecha de emisión de ambos entregables. Los nombres enlazan a los correos indicados por los autores y se reconoce la ayuda de Claude (Anthropic) y Codex (OpenAI). Las fechas de adquisición y de referencias siguen describiendo datos y fuentes, sin actuar como fecha del informe.
 - Un informe académico de cinco páginas compilado con LaTeX y un HTML autónomo de estructura distinta. Ambos conservan los integrantes Theo Del Compare y Santiago Romero.
 - Montaje docente descrito en texto, con barra de plomo; dimensiones no disponibles. Ningún esquema experimental se incorpora.
 - Relato y gráficos sin nombres de mediciones ni claves individuales; los registros técnicos conservan sus identificadores.

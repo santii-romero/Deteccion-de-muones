@@ -1,9 +1,9 @@
 {
   "pdf_pages_inspected": 5,
   "renderer": "Poppler pdftoppm 120 dpi",
-  "pdf_sha256": "8397e1fba067923ce47f16d1c598b719df8bff697a6a0da0a4ca63f98c174b30",
-  "html_sha256": "d764d39b25723fa9211b97c7d82c3a5995a2f7ce3a5d9b8c5f22989b8784bf97",
-  "pdf_findings": "All five final pages visually inspected: titles, authors, equations, tables, four figures, references and page numbers readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
+  "pdf_sha256": "b979139c0d81660cd7da22aec8fd8975a74a1799dc9a0491cfd37829efd9cb8d",
+  "html_sha256": "a1c39bb4bb202b0810527a89a61a47d651640fe29464e2700b164e9bba357803",
+  "pdf_findings": "All five final pages visually inspected after four-section reorganization: objective followed by centellator methods and results, Lambda-provided CCD data, joint comparison and AI acknowledgment. Linked author names, headings, equations, tables, four figures, references and page numbers readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
   "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout",
   "browser_checks": {
     "desktop": {
@@ -60,6 +60,19 @@
       "document_width": 1182,
       "no_horizontal_overflow": true,
       "public_text_has_event_id": false,
+      "author_mails": [
+        {
+          "name": "Theo Del Compare",
+          "href": "mailto:Theo.Del.Compare@gmail.com"
+        },
+        {
+          "name": "Santiago Romero",
+          "href": "mailto:romerosantiago545@gmail.com"
+        }
+      ],
+      "ai_acknowledgment": true,
+      "publication_date_absent": true,
+      "lambda_provider": true,
       "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
     },
     "mobile": {
@@ -116,10 +129,23 @@
       "document_width": 582,
       "no_horizontal_overflow": true,
       "public_text_has_event_id": false,
+      "author_mails": [
+        {
+          "name": "Theo Del Compare",
+          "href": "mailto:Theo.Del.Compare@gmail.com"
+        },
+        {
+          "name": "Santiago Romero",
+          "href": "mailto:romerosantiago545@gmail.com"
+        }
+      ],
+      "ai_acknowledgment": true,
+      "publication_date_absent": true,
+      "lambda_provider": true,
       "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
     }
   },
-  "html_findings": "Header, morphology graphics, lifetime chart, CCD methods, composition, metrics, discussion and references inspected. Four images load; seven window choices work and reset to adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
+  "html_findings": "Updated linked authors, objective, Lambda-provided data and AI acknowledgment inspected in Chrome. Four unchanged figures load; seven window choices work and reset to adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
   "public_preferences": {
     "authors": [
       "Theo Del Compare",
@@ -133,6 +159,13 @@
     "fit_legend_outside_data": true,
     "html_has_distinct_structure": true
   },
+  "editorial_revision": {
+    "pdf_main_sections": 4,
+    "publication_date_removed": true,
+    "author_mail_links_verified": true,
+    "ai_assistance_acknowledged": true,
+    "lambda_role": "data_provider_confirmed_by_user"
+  },
   "scientific_content": {
     "temporal_fit_byte_identical_to_previous_main": true,
     "selected_events": 525,
@@ -140,10 +173,10 @@
     "source_commit": "fd262213fcaab221b771617b49f47769f9e1c83c"
   },
   "visual_evidence_sha256": {
-    "tmp/latex/delivery-1.png": "59e31d1bd87a5e0bd09cbbfe891827f595abe4270c8899055f8749b4216e3064",
-    "tmp/latex/delivery-2.png": "88a7412a410e8202126e8c0c6dfc227ec95e6e473833bf5fdce75956e2473c00",
-    "tmp/latex/delivery-3.png": "34749b05530598631fb9b82cc16d55d2458c6f9488ee3e17566ba7aeb16466c2",
-    "tmp/latex/delivery-4.png": "125893916e168a8a95469638aa25694fd5f322050725de3742fa5141c6097497",
-    "tmp/latex/delivery-5.png": "e6c9e359316c600e52f26877aaea8e9a32cbfeccaa61780726daa36c015198bb"
+    "tmp/latex/four_sections-1.png": "26d7c484013d29ce1293730f93f5c271e9d0ff893a7567ae88b35384c33375e3",
+    "tmp/latex/four_sections-2.png": "800c499d1a652b1a0f6f0099d69c88ce7ca575d915cebef9d83eaccc5ee5d21d",
+    "tmp/latex/four_sections-3.png": "07cfe42fd91bfe409cc6dc1937324478a9c6d47bf3c1acb4318e13dbed4efb8a",
+    "tmp/latex/four_sections-4.png": "829a9a788b798a3750ec82fecaf24fdd3d555d03e43079948b22be20966b239a",
+    "tmp/latex/four_sections-5.png": "0df38020c17aaf74ddf86577bb8b43a44cd399f22af69ccd2ddca45e7269dff9"
   }
 }

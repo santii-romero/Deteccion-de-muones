@@ -122,6 +122,11 @@ def main():
     ccd=check_ccd();check_plot(fit,payload)
     for path,digest in json.loads((OUT/'report_manifest.json').read_text(encoding='utf-8')).items():assert sha256(ROOT/path)==digest
     pdf=ROOT/'output/pdf/proyecto_muones.pdf';web=ROOT/'output/informe.html'
+    expected_mails={'mailto:Theo.Del.Compare@gmail.com','mailto:romerosantiago545@gmail.com'}
+    tex=(ROOT/'output/latex/proyecto_muones.tex').read_text(encoding='utf-8')
+    headings=re.findall(r'^\\section\{([^}]+)\}',tex,re.M)
+    assert headings==['Objetivo del proyecto','Desarrollo y análisis con centelladores',
+        'Desarrollo y análisis del detector con datos del Laboratorio Lambda','Discusión conjunta y comparativa']
     # Temporary environments are not delivery artifacts.
     files=[p for p in ROOT.rglob('*') if p.is_file() and not any(x in p.relative_to(ROOT).parts for x in ('tmp','.venv','__pycache__','.git'))]
     assert [p for p in files if p.suffix.lower()=='.pdf']==[pdf]
@@ -130,9 +135,14 @@ def main():
         assert len(doc)==5
         assert 'pdfTeX' in doc.metadata['producer']
         assert doc.metadata['author']=='Theo Del Compare y Santiago Romero'
-        public_text_check('\n'.join(p.get_text() for p in doc))
+        pdf_text='\n'.join(p.get_text() for p in doc)
+        public_text_check(pdf_text)
+        assert all(word in pdf_text for word in ('Claude','Anthropic','Codex','OpenAI','Laboratorio Lambda'))
+        assert '28 de septiembre de 2026' not in pdf_text
+        pdf_links={link.get('uri','') for p in doc for link in p.get_links()}
+        assert expected_mails<=pdf_links
         for i,p in enumerate(doc):
-            text=p.get_text();assert f'{i+1}.' in text
+            assert p.get_text().strip().endswith(str(i+1))
             for block in p.get_text('blocks'):
                 assert block[0]>=20 and block[1]>=10 and block[2]<=575 and block[3]<=829
         assert '525' in doc[1].get_text() and '1,948' in doc[1].get_text()
@@ -140,11 +150,15 @@ def main():
         assert '15' in doc[3].get_text() and 'Discusión' in doc[4].get_text()
     parser=Links();parser.feed(web.read_text(encoding='utf-8'))
     assert parser.sections==7 and len(parser.images)==4
-    public_text_check(' '.join(parser.text))
-    assert 'Theo Del Compare y Santiago Romero' in ' '.join(parser.text)
+    html_text=re.sub(r'\s+',' ',' '.join(parser.text))
+    public_text_check(html_text)
+    assert 'Theo Del Compare y Santiago Romero' in html_text
+    assert all(word in html_text for word in ('Claude','Anthropic','Codex','OpenAI','Laboratorio Lambda'))
+    assert '28 SEPTIEMBRE 2026' not in html_text
+    assert expected_mails<=set(parser.targets)
     for target in parser.targets:
         if target.startswith('#'):assert target[1:] in parser.ids
-        elif target.startswith('https://'):pass
+        elif target.startswith('https://') or target in expected_mails:pass
         else:assert (web.parent/target).resolve().is_file(),target
     for src in parser.images:
         assert src.startswith('data:image/png;base64,')
@@ -168,6 +182,8 @@ def main():
         ccd_network_reference_traces=ccd['network_validation']['reference_traces'],
         ccd_hybrid_reference_traces=ccd['hybrid_comparison']['reference_traces'],
         histogram_normalization_verified=True,lifetime_legend_outside_axes=True,
+        pdf_main_sections=4,publication_date_removed=True,author_mail_links_verified=True,
+        ai_assistance_acknowledged=True,lambda_role='data_provider_confirmed_by_user',
         nominal_intervals_conditional_on_model=True,html_browser_visual_check=qa['html_browser_visual_check'])
     (OUT/'audit.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
     files=[p for p in ROOT.rglob('*') if p.is_file() and not any(x in p.relative_to(ROOT).parts for x in ('tmp','.venv','__pycache__','.git'))

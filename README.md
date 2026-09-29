@@ -1,6 +1,6 @@
 # Muones: análisis temporal y espacial
 
-Entrega conjunta de dos etapas: señales de centelladores de un laboratorio de enseñanza y reconstrucción y clasificación de trazas de un detector profesional Skipper-CCD con datos proporcionados por el Laboratorio Lambda. Integra los resultados y el código documentados en las ramas actuales `Análisis-laboratorio-de-enseñanzas` e `Identificador-instrumental-moderno` (antes `main` e `identificador`), sin combinar sus muestras ni modificar el ajuste temporal.
+Entrega conjunta de dos etapas: señales de centelladores de un laboratorio de enseñanza y reconstrucción y clasificación de trazas de un detector profesional Skipper-CCD con datos proporcionados por el Laboratorio Lambda. Integra los resultados y el código documentados en las ramas actuales `Análisis-laboratorio-de-enseñanzas` e `Identificador-instrumental-moderno`, sin combinar sus muestras ni modificar el ajuste temporal.
 
 **Resultado temporal adoptado:** 525 eventos de la adquisición independiente, τ=**1,947766 µs**; intervalos estadísticos nominales 68 % **[1,596712;2,494230] µs**, 95 % **[1,360399;3,409982] µs**. Fondo cero, peso 1 por evento, 1024 muestras y ventana desde 120 ns hasta el final individual posterior a CH1 menos 10 ns. Cero eventos anteriores en este ajuste.
 

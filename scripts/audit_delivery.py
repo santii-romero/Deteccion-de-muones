@@ -141,16 +141,20 @@ def main():
         assert all(word in pdf_text for word in ('Claude','Anthropic','Codex','OpenAI','Laboratorio Lambda'))
         assert '28 de septiembre de 2026' not in pdf_text
         pdf_links={link.get('uri','') for p in doc for link in p.get_links()}
-        assert expected_mails<=pdf_links
+        assert not any(uri.startswith('mailto:') for uri in pdf_links)
+        assert 'Theo.Del.Compare@gmail.com' not in pdf_text
         first=doc[0]
         name_rects=[first.search_for(name) for name in ('Theo Del Compare','Santiago Romero')]
-        email_rects=[first.search_for(email) for email in ('Theo.Del.Compare@gmail.com','romerosantiago545@gmail.com')]
+        email_rects=[first.search_for(email) for email in ('theo.del.compare@gmail.com','romerosantiago545@gmail.com')]
         assert all(len(rects)==1 for rects in name_rects+email_rects)
         assert min(rects[0].y0 for rects in email_rects)>max(rects[0].y1 for rects in name_rects)
+        assert 0<name_rects[1][0].x0-name_rects[0][0].x1<18
+        title_spans=[span for block in first.get_text('dict')['blocks'] if 'lines' in block
+                     for line in block['lines'] for span in line['spans']
+                     if span['bbox'][1]<80 and span['size']>15]
+        assert title_spans and all(abs(span['size']-16)<.1 for span in title_spans)
         for link in first.get_links():
-            if link.get('uri','') in expected_mails:
-                assert all(not link['from'].intersects(rects[0]) for rects in name_rects)
-                assert any(link['from'].intersects(rects[0]) for rects in email_rects)
+            assert all(not link['from'].intersects(rects[0]) for rects in name_rects+email_rects)
         for i,p in enumerate(doc):
             assert p.get_text().strip().endswith(str(i+1))
             for block in p.get_text('blocks'):
@@ -192,8 +196,9 @@ def main():
         ccd_network_reference_traces=ccd['network_validation']['reference_traces'],
         ccd_hybrid_reference_traces=ccd['hybrid_comparison']['reference_traces'],
         histogram_normalization_verified=True,lifetime_legend_outside_axes=True,
-        pdf_main_sections=4,publication_date_removed=True,author_mail_links_verified=True,
-        course_label_removed=True,pdf_names_unlinked=True,pdf_linked_emails_below_names=True,
+        pdf_main_sections=4,publication_date_removed=True,html_author_mail_links_verified=True,
+        course_label_removed=True,pdf_names_unlinked=True,pdf_emails_unlinked=True,
+        pdf_emails_below_names=True,pdf_names_compact_spacing=True,pdf_title_size_tex_pt=16,
         ai_assistance_acknowledged=True,lambda_role='data_provider_confirmed_by_user',
         nominal_intervals_conditional_on_model=True,html_browser_visual_check=qa['html_browser_visual_check'])
     (OUT/'audit.json').write_text(json.dumps(result,indent=2),encoding='utf-8')

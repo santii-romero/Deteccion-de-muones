@@ -1,9 +1,9 @@
 {
   "pdf_pages_inspected": 5,
   "renderer": "Poppler pdftoppm 120 dpi",
-  "pdf_sha256": "936aaa62695f874297a2c9fd31440f37afeff01a73a1ce551e7c7ca0424709b4",
+  "pdf_sha256": "31b7464f07dbaf0d40ed24bcaa6e2a4ca7ee904d7a023a6622b22f7809807b61",
   "html_sha256": "fd741561658d583aa113094ccb3a3936293f4b50b56000c368135271bd971197",
-  "pdf_findings": "All five final pages visually inspected after removing the course label and revising the author header. Names are unlinked; visible linked emails fit on one line below. The course label is absent from the header and references. Headings, equations, tables, figures, references and page numbers remain readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
+  "pdf_findings": "All five final pages visually inspected after increasing the title to 16 TeX points and using normal spaces between the authors. Names and emails are unlinked; theo.del.compare@gmail.com is lowercase and both emails fit on one line below. The course label remains absent. Headings, equations, tables, figures, references and page numbers remain readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
   "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout",
   "browser_checks": {
     "desktop": {
@@ -147,7 +147,7 @@
       "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
     }
   },
-  "html_findings": "Header and references without the course label inspected in Chrome. Author links remain as requested for HTML. Four unchanged figures load; seven window choices work and reset to the adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
+  "html_findings": "HTML bytes are unchanged from the preceding published revision. Its prior Chrome inspection and browser receipts remain valid: four figures load, seven window choices work and reset to the adopted 525-event result, and there is no horizontal overflow at viewports 1182 and 582 CSS pixels.",
   "public_preferences": {
     "authors": [
       "Theo Del Compare",
@@ -164,10 +164,13 @@
   "editorial_revision": {
     "pdf_main_sections": 4,
     "publication_date_removed": true,
-    "author_mail_links_verified": true,
+    "html_author_mail_links_verified": true,
     "course_label_removed": true,
     "pdf_names_unlinked": true,
-    "pdf_linked_emails_below_names": true,
+    "pdf_emails_unlinked": true,
+    "pdf_emails_below_names": true,
+    "pdf_names_compact_spacing": true,
+    "pdf_title_size_tex_pt": 16,
     "ai_assistance_acknowledged": true,
     "lambda_role": "data_provider_confirmed_by_user"
   },
@@ -178,10 +181,10 @@
     "source_commit": "fd262213fcaab221b771617b49f47769f9e1c83c"
   },
   "visual_evidence_sha256": {
-    "tmp/latex/mail_header-1.png": "f251723a1fed4c37729d9aa66b98415d4100ed93afe05cd01985a7224ab3bf98",
-    "tmp/latex/mail_header-2.png": "800c499d1a652b1a0f6f0099d69c88ce7ca575d915cebef9d83eaccc5ee5d21d",
-    "tmp/latex/mail_header-3.png": "07cfe42fd91bfe409cc6dc1937324478a9c6d47bf3c1acb4318e13dbed4efb8a",
-    "tmp/latex/mail_header-4.png": "829a9a788b798a3750ec82fecaf24fdd3d555d03e43079948b22be20966b239a",
-    "tmp/latex/mail_header-5.png": "ca4b854c8595e635919fca0944af17396020458ecff370ac66169b0d26527ab5"
+    "tmp/latex/final_header-1.png": "35dd58ff965e665c33b80f2dde2d656f1647f17ba0c635057def3a2ae42e461e",
+    "tmp/latex/final_header-2.png": "800c499d1a652b1a0f6f0099d69c88ce7ca575d915cebef9d83eaccc5ee5d21d",
+    "tmp/latex/final_header-3.png": "07cfe42fd91bfe409cc6dc1937324478a9c6d47bf3c1acb4318e13dbed4efb8a",
+    "tmp/latex/final_header-4.png": "829a9a788b798a3750ec82fecaf24fdd3d555d03e43079948b22be20966b239a",
+    "tmp/latex/final_header-5.png": "a88a5b3beb2dc48b2a62c7770483e0631883ab3a3381333e6cd2599ebec31948"
   }
 }

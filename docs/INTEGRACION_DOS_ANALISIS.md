@@ -22,6 +22,7 @@ La clase alfa no aparece en el resumen de 30 imágenes; en la validación de la 
 
 ## Cambios de presentación
 
+- Revisión vigente: se retira «Laboratorio 5» de la portada y de la referencia docente en ambos formatos. El PDF muestra nombres sin enlace y los dos correos visibles y enlazados en una línea debajo. El HTML conserva los nombres enlazados a los correos. Esta revisión no cambia resultados, gráficos ni secciones.
 - Revisión posterior: cuatro secciones principales en el PDF, dedicadas al objetivo y comparación esperada, centelladores, detector con datos proporcionados por Lambda y discusión conjunta. Subapartados agrupan método y resultados dentro de cada análisis. El HTML mantiene su navegación detallada propia.
 - Se retiró la fecha de emisión de ambos entregables. Los nombres enlazan a los correos indicados por los autores y se reconoce la ayuda de Claude (Anthropic) y Codex (OpenAI). Las fechas de adquisición y de referencias siguen describiendo datos y fuentes, sin actuar como fecha del informe.
 - Un informe académico de cinco páginas compilado con LaTeX y un HTML autónomo de estructura distinta. Ambos conservan los integrantes Theo Del Compare y Santiago Romero.

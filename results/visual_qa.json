@@ -1,9 +1,9 @@
 {
   "pdf_pages_inspected": 5,
   "renderer": "Poppler pdftoppm 120 dpi",
-  "pdf_sha256": "b979139c0d81660cd7da22aec8fd8975a74a1799dc9a0491cfd37829efd9cb8d",
-  "html_sha256": "a1c39bb4bb202b0810527a89a61a47d651640fe29464e2700b164e9bba357803",
-  "pdf_findings": "All five final pages visually inspected after four-section reorganization: objective followed by centellator methods and results, Lambda-provided CCD data, joint comparison and AI acknowledgment. Linked author names, headings, equations, tables, four figures, references and page numbers readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
+  "pdf_sha256": "936aaa62695f874297a2c9fd31440f37afeff01a73a1ce551e7c7ca0424709b4",
+  "html_sha256": "fd741561658d583aa113094ccb3a3936293f4b50b56000c368135271bd971197",
+  "pdf_findings": "All five final pages visually inspected after removing the course label and revising the author header. Names are unlinked; visible linked emails fit on one line below. The course label is absent from the header and references. Headings, equations, tables, figures, references and page numbers remain readable; no clipping or overlapping legend. LaTeX log has no warnings or overfull boxes.",
   "html_browser_visual_check": "passed: Chrome headless, isolated temporary profiles, desktop and narrow layout",
   "browser_checks": {
     "desktop": {
@@ -72,6 +72,7 @@
       ],
       "ai_acknowledgment": true,
       "publication_date_absent": true,
+      "course_label_absent": true,
       "lambda_provider": true,
       "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
     },
@@ -141,11 +142,12 @@
       ],
       "ai_acknowledgment": true,
       "publication_date_absent": true,
+      "course_label_absent": true,
       "lambda_provider": true,
       "default_result": "525 eventos · τ = 1,948 µs · intervalo nominal 68 %: [1,597; 2,494] µs"
     }
   },
-  "html_findings": "Updated linked authors, objective, Lambda-provided data and AI acknowledgment inspected in Chrome. Four unchanged figures load; seven window choices work and reset to adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
+  "html_findings": "Header and references without the course label inspected in Chrome. Author links remain as requested for HTML. Four unchanged figures load; seven window choices work and reset to the adopted 525-event result. No document horizontal overflow at actual viewports 1182 and 582 CSS pixels.",
   "public_preferences": {
     "authors": [
       "Theo Del Compare",
@@ -163,6 +165,9 @@
     "pdf_main_sections": 4,
     "publication_date_removed": true,
     "author_mail_links_verified": true,
+    "course_label_removed": true,
+    "pdf_names_unlinked": true,
+    "pdf_linked_emails_below_names": true,
     "ai_assistance_acknowledged": true,
     "lambda_role": "data_provider_confirmed_by_user"
   },
@@ -173,10 +178,10 @@
     "source_commit": "fd262213fcaab221b771617b49f47769f9e1c83c"
   },
   "visual_evidence_sha256": {
-    "tmp/latex/four_sections-1.png": "26d7c484013d29ce1293730f93f5c271e9d0ff893a7567ae88b35384c33375e3",
-    "tmp/latex/four_sections-2.png": "800c499d1a652b1a0f6f0099d69c88ce7ca575d915cebef9d83eaccc5ee5d21d",
-    "tmp/latex/four_sections-3.png": "07cfe42fd91bfe409cc6dc1937324478a9c6d47bf3c1acb4318e13dbed4efb8a",
-    "tmp/latex/four_sections-4.png": "829a9a788b798a3750ec82fecaf24fdd3d555d03e43079948b22be20966b239a",
-    "tmp/latex/four_sections-5.png": "0df38020c17aaf74ddf86577bb8b43a44cd399f22af69ccd2ddca45e7269dff9"
+    "tmp/latex/mail_header-1.png": "f251723a1fed4c37729d9aa66b98415d4100ed93afe05cd01985a7224ab3bf98",
+    "tmp/latex/mail_header-2.png": "800c499d1a652b1a0f6f0099d69c88ce7ca575d915cebef9d83eaccc5ee5d21d",
+    "tmp/latex/mail_header-3.png": "07cfe42fd91bfe409cc6dc1937324478a9c6d47bf3c1acb4318e13dbed4efb8a",
+    "tmp/latex/mail_header-4.png": "829a9a788b798a3750ec82fecaf24fdd3d555d03e43079948b22be20966b239a",
+    "tmp/latex/mail_header-5.png": "ca4b854c8595e635919fca0944af17396020458ecff370ac66169b0d26527ab5"
   }
 }

@@ -25,7 +25,7 @@ def main():
     revision=quote(args.revision,safe='')
     for name in DOCUMENTS:
         local='href="../docs/'+name+'"'
-        remote='href="'+REPOSITORY+'/blob/'+revision+'/Muones/docs/'+name+'"'
+        remote='href="'+REPOSITORY+'/blob/'+revision+'/docs/'+name+'"'
         assert source.count(local)==1
         public=public.replace(local,remote)
     assert '../docs/' not in public and 'href="pdf/proyecto_muones.pdf"' in public
@@ -33,7 +33,7 @@ def main():
     # The two documentation links are the only changes in the web copy.
     restored=public
     for name in DOCUMENTS:
-        restored=restored.replace('href="'+REPOSITORY+'/blob/'+revision+'/Muones/docs/'+name+'"','href="../docs/'+name+'"')
+        restored=restored.replace('href="'+REPOSITORY+'/blob/'+revision+'/docs/'+name+'"','href="../docs/'+name+'"')
     assert restored==source
     expected={'index.html','pdf/proyecto_muones.pdf','.nojekyll'}
     if destination.exists():

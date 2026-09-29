@@ -2,6 +2,7 @@
 
 ## Orden vigente: entregables conjuntos
 
+- Revisión vigente: retirar toda mención a «Laboratorio 5» del PDF y HTML, incluida la bibliografía. En el PDF, nombres sin hipervínculo y ambos correos visibles con enlace en una línea debajo; el HTML conserva sus enlaces en los nombres. Esta orden sustituye el formato anterior de autores en el PDF.
 - Revisión editorial posterior: PDF con cuatro secciones principales (objetivo; desarrollo y análisis con centelladores; detector con datos del Laboratorio Lambda; discusión conjunta y comparativa), sin fecha de emisión. Nombres enlazados a `Theo.Del.Compare@gmail.com` y `romerosantiago545@gmail.com`; reconocimiento de asistencia de Claude (Anthropic) y Codex (OpenAI) en ambos formatos. Lambda proporcionó los datos, según aclaró el usuario; no atribuirle la ubicación física del detector. Conservar los resultados y el máximo de cinco páginas.
 - El usuario pidió ahora integrar los dos análisis y aplicar las preferencias: PDF auténtico de LaTeX de máximo cinco páginas, HTML independiente, montaje en texto con plomo, sin nombres de mediciones ni IDs en el relato y leyenda del ajuste exterior. Leer `docs/INTEGRACION_DOS_ANALISIS.md`.
 - Confirmó que no dispone de datos originales ni tablas completas de validación del CCD. Integrar sus resultados documentados con procedencia, sin afirmar una nueva ejecución. Para el montaje docente usar solo disposición y datos confirmados; no inventar dimensiones.
@@ -9,6 +10,7 @@
 
 ## Destino de publicación autorizado
 
+- Ubicación vigente: el contenido de `Muones/` y de `Proyecto-detector/` se movió a la raíz de sus respectivas ramas, preservando todos los archivos. La publicación de esta revisión editorial usa las rutas de la raíz; los README anteriores de navegación se conservan como `README_REPOSITORIO.md`.
 - El usuario autorizó configurar GitHub Pages para leer el informe mediante un enlace público. Las ramas remotas se renombraron conservando exactamente los commits: `main` → `Análisis-laboratorio-de-enseñanzas`, `identificador` → `Identificador-instrumental-moderno`. Publicar desde el nombre vigente de la entrega mediante el workflow de la raíz del repositorio, conservando los resultados y el contenido del detector. Leer `docs/PAGES.md`.
 - El usuario proporcionó `https://github.com/santii-romero/Deteccion-de-muones.git` y ordenó subir esta carpeta como `Muones/` en la rama `main`. La rama `identificador`, donde está `Proyecto-detector/`, debe permanecer intacta. La orden posterior de integración autoriza los entregables conjuntos y las correcciones editoriales descritos arriba; conservar el análisis temporal adoptado.
 

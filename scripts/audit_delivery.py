@@ -75,6 +75,7 @@ def check_plot(fit,payload):
 
 
 def public_text_check(text):
+    assert not re.search(r'laboratorio\s*5\b',text,re.I),'Removed course label in public report'
     assert not re.search(r'#\s*\d+\b',text),'Individual event IDs in public narrative'
     assert not re.search(r'PAblo|decaimientos\.txt|Med_con_Decaimientos|run_\d+',text,re.I)
     assert 'plomo' in text and 'Skipper' in text
@@ -141,6 +142,15 @@ def main():
         assert '28 de septiembre de 2026' not in pdf_text
         pdf_links={link.get('uri','') for p in doc for link in p.get_links()}
         assert expected_mails<=pdf_links
+        first=doc[0]
+        name_rects=[first.search_for(name) for name in ('Theo Del Compare','Santiago Romero')]
+        email_rects=[first.search_for(email) for email in ('Theo.Del.Compare@gmail.com','romerosantiago545@gmail.com')]
+        assert all(len(rects)==1 for rects in name_rects+email_rects)
+        assert min(rects[0].y0 for rects in email_rects)>max(rects[0].y1 for rects in name_rects)
+        for link in first.get_links():
+            if link.get('uri','') in expected_mails:
+                assert all(not link['from'].intersects(rects[0]) for rects in name_rects)
+                assert any(link['from'].intersects(rects[0]) for rects in email_rects)
         for i,p in enumerate(doc):
             assert p.get_text().strip().endswith(str(i+1))
             for block in p.get_text('blocks'):
@@ -183,6 +193,7 @@ def main():
         ccd_hybrid_reference_traces=ccd['hybrid_comparison']['reference_traces'],
         histogram_normalization_verified=True,lifetime_legend_outside_axes=True,
         pdf_main_sections=4,publication_date_removed=True,author_mail_links_verified=True,
+        course_label_removed=True,pdf_names_unlinked=True,pdf_linked_emails_below_names=True,
         ai_assistance_acknowledged=True,lambda_role='data_provider_confirmed_by_user',
         nominal_intervals_conditional_on_model=True,html_browser_visual_check=qa['html_browser_visual_check'])
     (OUT/'audit.json').write_text(json.dumps(result,indent=2),encoding='utf-8')

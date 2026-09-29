@@ -4,10 +4,10 @@ on:
   push:
     branches: ['Análisis-laboratorio-de-enseñanzas']
     paths:
-      - Muones/output/informe.html
-      - Muones/output/pdf/proyecto_muones.pdf
-      - Muones/results/report_manifest.json
-      - Muones/scripts/prepare_pages.py
+      - output/informe.html
+      - output/pdf/proyecto_muones.pdf
+      - results/report_manifest.json
+      - scripts/prepare_pages.py
       - .github/workflows/pages.yml
   workflow_dispatch:
 
@@ -34,7 +34,7 @@ jobs:
       - name: Configurar Pages
         uses: actions/configure-pages@v5
       - name: Preparar el HTML y el PDF vigentes
-        run: python3 Muones/scripts/prepare_pages.py --destination _site --revision "$GITHUB_SHA"
+        run: python3 scripts/prepare_pages.py --destination _site --revision "$GITHUB_SHA"
       - name: Subir el sitio
         uses: actions/upload-pages-artifact@v4
         with:
